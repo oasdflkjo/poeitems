@@ -24,7 +24,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Azure Amulet",
@@ -51,7 +52,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Amber Amulet",
@@ -78,7 +80,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jade Amulet",
@@ -105,7 +108,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lapis Amulet",
@@ -132,7 +136,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lunar Amulet",
@@ -159,7 +164,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bloodstone Amulet",
@@ -186,7 +192,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stellar Amulet",
@@ -213,7 +220,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Solar Amulet",
@@ -240,7 +248,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gold Amulet",
@@ -267,7 +276,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dusk Amulet",
@@ -294,7 +304,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gloam Amulet",
@@ -321,7 +332,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Penumbra Amulet",
@@ -348,7 +360,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tenebrous Amulet",
@@ -375,7 +388,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dull Hatchet",
@@ -409,7 +423,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hook Axe",
@@ -443,7 +458,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bearded Axe",
@@ -477,7 +493,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Extended Cleaver",
@@ -511,7 +528,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bandit Hatchet",
@@ -545,7 +563,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crescent Axe",
@@ -579,7 +598,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Carving Hatchet",
@@ -613,7 +633,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sacrificial Axe",
@@ -647,7 +668,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Boarding Hatchet",
@@ -680,7 +702,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fury Cleaver",
@@ -713,7 +736,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Battle Axe",
@@ -746,7 +770,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Profane Cleaver",
@@ -779,7 +804,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dread Hatchet",
@@ -812,7 +838,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Splitting Greataxe",
@@ -846,7 +873,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Light Halberd",
@@ -880,7 +908,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Executioner Greataxe",
@@ -914,7 +943,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Arched Greataxe",
@@ -948,7 +978,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Glaive",
@@ -982,7 +1013,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Savage Greataxe",
@@ -1016,7 +1048,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rending Halberd",
@@ -1050,7 +1083,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jagged Greataxe",
@@ -1084,7 +1118,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Reaver Glaive",
@@ -1117,7 +1152,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ember Greataxe",
@@ -1147,7 +1183,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ceremonial Halberd",
@@ -1180,7 +1217,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Monument Greataxe",
@@ -1213,7 +1251,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vile Greataxe",
@@ -1246,7 +1285,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Obi",
@@ -1275,7 +1315,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rawhide Belt",
@@ -1302,7 +1343,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Linen Belt",
@@ -1329,7 +1371,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wide Belt",
@@ -1356,7 +1399,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Long Belt",
@@ -1383,7 +1427,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plate Belt",
@@ -1410,7 +1455,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ornate Belt",
@@ -1437,7 +1483,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mail Belt",
@@ -1464,7 +1511,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Double Belt",
@@ -1491,7 +1539,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heavy Belt",
@@ -1518,7 +1567,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Utility Belt",
@@ -1545,7 +1595,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fine Belt",
@@ -1572,7 +1623,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rusted Cuirass",
@@ -1602,7 +1654,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fur Plate",
@@ -1632,7 +1685,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Cuirass",
@@ -1662,7 +1716,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Raider Plate",
@@ -1692,7 +1747,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Maraketh Cuirass",
@@ -1722,7 +1778,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Steel Plate",
@@ -1752,7 +1809,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Full Plate",
@@ -1782,7 +1840,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vaal Cuirass",
@@ -1812,7 +1871,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Juggernaut Plate",
@@ -1841,7 +1901,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Chieftain Cuirass",
@@ -1870,7 +1931,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Colosseum Plate",
@@ -1899,7 +1961,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Champion Cuirass",
@@ -1928,7 +1991,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Glorious Plate",
@@ -1957,7 +2021,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Conqueror Plate",
@@ -1986,7 +2051,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Abyssal Cuirass",
@@ -2015,7 +2081,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Barbarian Plate",
@@ -2044,7 +2111,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rugged Cuirass",
@@ -2073,7 +2141,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sandsworn Cuirass",
@@ -2102,7 +2171,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Plate",
@@ -2131,7 +2201,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heavy Plate",
@@ -2160,7 +2231,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Cuirass",
@@ -2189,7 +2261,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soldier Cuirass",
@@ -2218,7 +2291,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ornate Plate",
@@ -2247,7 +2321,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Utzaal Cuirass",
@@ -2276,7 +2351,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Leather Vest",
@@ -2306,7 +2382,8 @@
             "evasion": 30,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Quilted Vest",
@@ -2336,7 +2413,8 @@
             "evasion": 44,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pathfinder Coat",
@@ -2366,7 +2444,8 @@
             "evasion": 78,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shrouded Vest",
@@ -2396,7 +2475,8 @@
             "evasion": 102,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rhoahide Coat",
@@ -2426,7 +2506,8 @@
             "evasion": 131,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Studded Vest",
@@ -2456,7 +2537,8 @@
             "evasion": 150,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Scout's Vest",
@@ -2486,7 +2568,8 @@
             "evasion": 184,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Serpentscale Coat",
@@ -2516,7 +2599,8 @@
             "evasion": 198,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Corsair Vest",
@@ -2545,7 +2629,8 @@
             "evasion": 242,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Smuggler Coat",
@@ -2574,7 +2659,8 @@
             "evasion": 256,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Strider Vest",
@@ -2603,7 +2689,8 @@
             "evasion": 275,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hardleather Coat",
@@ -2632,7 +2719,8 @@
             "evasion": 295,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Exquisite Vest",
@@ -2661,7 +2749,8 @@
             "evasion": 487,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mail Coat",
@@ -2690,7 +2779,8 @@
             "evasion": 406,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Armoured Vest",
@@ -2719,7 +2809,8 @@
             "evasion": 406,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Patchwork Vest",
@@ -2748,7 +2839,8 @@
             "evasion": 242,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hunting Coat",
@@ -2777,7 +2869,8 @@
             "evasion": 256,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Riding Coat",
@@ -2806,7 +2899,8 @@
             "evasion": 271,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Layered Vest",
@@ -2835,7 +2929,8 @@
             "evasion": 290,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Runner Vest",
@@ -2864,7 +2959,8 @@
             "evasion": 309,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lizardscale Coat",
@@ -2893,7 +2989,8 @@
             "evasion": 324,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Swiftstalker Coat",
@@ -2922,7 +3019,8 @@
             "evasion": 406,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Slipstrike Vest",
@@ -2951,7 +3049,8 @@
             "evasion": 487,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wyrmscale Coat",
@@ -2980,7 +3079,8 @@
             "evasion": 406,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tattered Robe",
@@ -3010,7 +3110,8 @@
             "evasion": 0,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Feathered Robe",
@@ -3040,7 +3141,8 @@
             "evasion": 0,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hexer's Robe",
@@ -3070,7 +3172,8 @@
             "evasion": 0,
             "energyShield": 44,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bone Raiment",
@@ -3100,7 +3203,8 @@
             "evasion": 0,
             "energyShield": 52,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Silk Robe",
@@ -3130,7 +3234,8 @@
             "evasion": 0,
             "energyShield": 61,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Keth Raiment",
@@ -3160,7 +3265,8 @@
             "evasion": 0,
             "energyShield": 70,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Votive Raiment",
@@ -3190,7 +3296,8 @@
             "evasion": 0,
             "energyShield": 78,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Altar Robe",
@@ -3220,7 +3327,8 @@
             "evasion": 0,
             "energyShield": 89,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elementalist Robe",
@@ -3249,7 +3357,8 @@
             "evasion": 0,
             "energyShield": 97,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mystic Raiment",
@@ -3278,7 +3387,8 @@
             "evasion": 0,
             "energyShield": 100,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Imperial Robe",
@@ -3307,7 +3417,8 @@
             "evasion": 0,
             "energyShield": 108,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plated Raiment",
@@ -3336,7 +3447,8 @@
             "evasion": 0,
             "energyShield": 117,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Havoc Raiment",
@@ -3365,7 +3477,8 @@
             "evasion": 0,
             "energyShield": 184,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Enlightened Robe",
@@ -3394,7 +3507,8 @@
             "evasion": 0,
             "energyShield": 153,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Arcane Robe",
@@ -3423,7 +3537,8 @@
             "evasion": 0,
             "energyShield": 153,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Avian Robe",
@@ -3452,7 +3567,8 @@
             "evasion": 0,
             "energyShield": 97,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cursespeaker's Robe",
@@ -3481,7 +3597,8 @@
             "evasion": 0,
             "energyShield": 101,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Luxurious Robe",
@@ -3510,7 +3627,8 @@
             "evasion": 0,
             "energyShield": 106,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "River Raiment",
@@ -3539,7 +3657,8 @@
             "evasion": 0,
             "energyShield": 112,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Adherent's Raiment",
@@ -3568,7 +3687,8 @@
             "evasion": 0,
             "energyShield": 119,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ceremonial Robe",
@@ -3597,7 +3717,8 @@
             "evasion": 0,
             "energyShield": 123,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vile Robe",
@@ -3626,7 +3747,8 @@
             "evasion": 0,
             "energyShield": 184,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flowing Raiment",
@@ -3655,7 +3777,8 @@
             "evasion": 0,
             "energyShield": 153,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sacramental Robe",
@@ -3684,7 +3807,8 @@
             "evasion": 0,
             "energyShield": 153,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Chain Mail",
@@ -3714,7 +3838,8 @@
             "evasion": 16,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rogue Armour",
@@ -3744,7 +3869,8 @@
             "evasion": 43,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vagabond Armour",
@@ -3774,7 +3900,8 @@
             "evasion": 56,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cloaked Mail",
@@ -3804,7 +3931,8 @@
             "evasion": 83,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Explorer Armour",
@@ -3834,7 +3962,8 @@
             "evasion": 101,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Scale Mail",
@@ -3864,7 +3993,8 @@
             "evasion": 112,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Knight Armour",
@@ -3893,7 +4023,8 @@
             "evasion": 133,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ancestral Mail",
@@ -3922,7 +4053,8 @@
             "evasion": 146,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lamellar Mail",
@@ -3951,7 +4083,8 @@
             "evasion": 151,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gladiator Armour",
@@ -3980,7 +4113,8 @@
             "evasion": 167,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heroic Armour",
@@ -4009,7 +4143,8 @@
             "evasion": 223,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tournament Mail",
@@ -4038,7 +4173,8 @@
             "evasion": 223,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Slayer Armour",
@@ -4067,7 +4203,8 @@
             "evasion": 268,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ring Mail",
@@ -4096,7 +4233,8 @@
             "evasion": 133,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Scoundrel Armour",
@@ -4125,7 +4263,8 @@
             "evasion": 141,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wanderer Armour",
@@ -4154,7 +4293,8 @@
             "evasion": 149,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mantled Mail",
@@ -4183,7 +4323,8 @@
             "evasion": 159,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Trailblazer Armour",
@@ -4212,7 +4353,8 @@
             "evasion": 170,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Mail",
@@ -4241,7 +4383,8 @@
             "evasion": 178,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dastard Armour",
@@ -4270,7 +4413,8 @@
             "evasion": 223,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shrouded Mail",
@@ -4299,7 +4443,8 @@
             "evasion": 223,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Death Mail",
@@ -4328,7 +4473,8 @@
             "evasion": 268,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pilgrim Vestments",
@@ -4358,7 +4504,8 @@
             "evasion": 0,
             "energyShield": 16,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pelt Mantle",
@@ -4388,7 +4535,8 @@
             "evasion": 0,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mail Vestments",
@@ -4418,7 +4566,8 @@
             "evasion": 0,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shaman Mantle",
@@ -4448,7 +4597,8 @@
             "evasion": 0,
             "energyShield": 39,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ironclad Vestments",
@@ -4478,7 +4628,8 @@
             "evasion": 0,
             "energyShield": 43,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sacrificial Mantle",
@@ -4508,7 +4659,8 @@
             "evasion": 0,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cleric Vestments",
@@ -4537,7 +4689,8 @@
             "evasion": 0,
             "energyShield": 53,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tideseer Mantle",
@@ -4566,7 +4719,8 @@
             "evasion": 0,
             "energyShield": 58,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gilded Vestments",
@@ -4595,7 +4749,8 @@
             "evasion": 0,
             "energyShield": 59,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Venerated Mantle",
@@ -4624,7 +4779,8 @@
             "evasion": 0,
             "energyShield": 61,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Revered Vestments",
@@ -4653,7 +4809,8 @@
             "evasion": 0,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Corvus Mantle",
@@ -4682,7 +4839,8 @@
             "evasion": 0,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Zenith Vestments",
@@ -4711,7 +4869,8 @@
             "evasion": 0,
             "energyShield": 101,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Templar Vestments",
@@ -4740,7 +4899,8 @@
             "evasion": 0,
             "energyShield": 53,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bearskin Mantle",
@@ -4769,7 +4929,8 @@
             "evasion": 0,
             "energyShield": 56,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Chain Vestments",
@@ -4798,7 +4959,8 @@
             "evasion": 0,
             "energyShield": 58,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Occultist Mantle",
@@ -4827,7 +4989,8 @@
             "evasion": 0,
             "energyShield": 62,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plated Vestments",
@@ -4856,7 +5019,8 @@
             "evasion": 0,
             "energyShield": 65,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heartcarver Mantle",
@@ -4885,7 +5049,8 @@
             "evasion": 0,
             "energyShield": 68,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wolfskin Mantle",
@@ -4914,7 +5079,8 @@
             "evasion": 0,
             "energyShield": 101,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Conjurer Mantle",
@@ -4943,7 +5109,8 @@
             "evasion": 0,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Death Mantle",
@@ -4972,7 +5139,8 @@
             "evasion": 0,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hermit Garb",
@@ -5002,7 +5170,8 @@
             "evasion": 16,
             "energyShield": 16,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Waxed Jacket",
@@ -5032,7 +5201,8 @@
             "evasion": 43,
             "energyShield": 24,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Marabout Garb",
@@ -5062,7 +5232,8 @@
             "evasion": 56,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wayfarer Jacket",
@@ -5092,7 +5263,8 @@
             "evasion": 88,
             "energyShield": 39,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Anchorite Garb",
@@ -5122,7 +5294,8 @@
             "evasion": 101,
             "energyShield": 43,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Scalper's Jacket",
@@ -5152,7 +5325,8 @@
             "evasion": 117,
             "energyShield": 48,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Scoundrel Jacket",
@@ -5181,7 +5355,8 @@
             "evasion": 133,
             "energyShield": 53,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ascetic Garb",
@@ -5210,7 +5385,8 @@
             "evasion": 133,
             "energyShield": 53,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Clandestine Jacket",
@@ -5239,7 +5415,8 @@
             "evasion": 151,
             "energyShield": 59,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Monastic Garb",
@@ -5268,7 +5445,8 @@
             "evasion": 162,
             "energyShield": 63,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Torment Jacket",
@@ -5297,7 +5475,8 @@
             "evasion": 268,
             "energyShield": 101,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Devout Garb",
@@ -5326,7 +5505,8 @@
             "evasion": 223,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Assassin Garb",
@@ -5355,7 +5535,8 @@
             "evasion": 223,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Oiled Jacket",
@@ -5384,7 +5565,8 @@
             "evasion": 141,
             "energyShield": 56,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Evangelist Garb",
@@ -5413,7 +5595,8 @@
             "evasion": 149,
             "energyShield": 58,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Itinerant Jacket",
@@ -5442,7 +5625,8 @@
             "evasion": 159,
             "energyShield": 62,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hatungo Garb",
@@ -5471,7 +5655,8 @@
             "evasion": 170,
             "energyShield": 65,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hawker's Jacket",
@@ -5500,7 +5685,8 @@
             "evasion": 178,
             "energyShield": 68,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sleek Jacket",
@@ -5529,7 +5715,8 @@
             "evasion": 268,
             "energyShield": 101,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rambler Jacket",
@@ -5558,7 +5745,8 @@
             "evasion": 223,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Falconer's Jacket",
@@ -5587,7 +5775,8 @@
             "evasion": 223,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Regalia",
@@ -5616,7 +5805,8 @@
             "evasion": 123,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Garment",
@@ -5645,7 +5835,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Mantle",
@@ -5676,7 +5867,8 @@
             "evasion": 44,
             "energyShield": 21,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rough Greaves",
@@ -5706,7 +5898,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Greaves",
@@ -5736,7 +5929,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bronze Greaves",
@@ -5766,7 +5960,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Trimmed Greaves",
@@ -5796,7 +5991,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Greaves",
@@ -5826,7 +6022,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Reefsteel Greaves",
@@ -5855,7 +6052,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Monument Greaves",
@@ -5884,7 +6082,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Totemic Greaves",
@@ -5913,7 +6112,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plated Greaves",
@@ -5942,7 +6142,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lionheart Greaves",
@@ -5971,7 +6172,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Greaves",
@@ -6000,7 +6202,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Carved Greaves",
@@ -6029,7 +6232,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bulwark Greaves",
@@ -6058,7 +6262,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ornate Greaves",
@@ -6087,7 +6292,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vaal Greaves",
@@ -6116,7 +6322,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rawhide Boots",
@@ -6146,7 +6353,8 @@
             "evasion": 15,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Laced Boots",
@@ -6176,7 +6384,8 @@
             "evasion": 38,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Embossed Boots",
@@ -6206,7 +6415,8 @@
             "evasion": 50,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Steeltoe Boots",
@@ -6236,7 +6446,8 @@
             "evasion": 79,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lizardscale Boots",
@@ -6266,7 +6477,8 @@
             "evasion": 90,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flared Boots",
@@ -6295,7 +6507,8 @@
             "evasion": 119,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Leatherplate Boots",
@@ -6324,7 +6537,8 @@
             "evasion": 135,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Embroidered Boots",
@@ -6353,7 +6567,8 @@
             "evasion": 166,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bound Boots",
@@ -6382,7 +6597,8 @@
             "evasion": 119,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sleek Boots",
@@ -6411,7 +6627,8 @@
             "evasion": 133,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Studded Boots",
@@ -6440,7 +6657,8 @@
             "evasion": 143,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Serpentscale Boots",
@@ -6469,7 +6687,8 @@
             "evasion": 152,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cinched Boots",
@@ -6498,7 +6717,8 @@
             "evasion": 166,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cavalry Boots",
@@ -6527,7 +6747,8 @@
             "evasion": 183,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dragonscale Boots",
@@ -6556,7 +6777,8 @@
             "evasion": 200,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Straw Sandals",
@@ -6586,7 +6808,8 @@
             "evasion": 0,
             "energyShield": 14,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wrapped Sandals",
@@ -6616,7 +6839,8 @@
             "evasion": 0,
             "energyShield": 22,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lattice Sandals",
@@ -6646,7 +6870,8 @@
             "evasion": 0,
             "energyShield": 25,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Silk Slippers",
@@ -6676,7 +6901,8 @@
             "evasion": 0,
             "energyShield": 34,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Feathered Sandals",
@@ -6706,7 +6932,8 @@
             "evasion": 0,
             "energyShield": 38,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flax Sandals",
@@ -6735,7 +6962,8 @@
             "evasion": 0,
             "energyShield": 48,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Studded Sandals",
@@ -6764,7 +6992,8 @@
             "evasion": 0,
             "energyShield": 53,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elaborate Sandals",
@@ -6793,7 +7022,8 @@
             "evasion": 0,
             "energyShield": 63,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Laced Sandals",
@@ -6822,7 +7052,8 @@
             "evasion": 0,
             "energyShield": 48,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bangled Sandals",
@@ -6851,7 +7082,8 @@
             "evasion": 0,
             "energyShield": 52,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Slippers",
@@ -6880,7 +7112,8 @@
             "evasion": 0,
             "energyShield": 55,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dunerunner Sandals",
@@ -6909,7 +7142,8 @@
             "evasion": 0,
             "energyShield": 58,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bound Sandals",
@@ -6938,7 +7172,8 @@
             "evasion": 0,
             "energyShield": 63,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Luxurious Slippers",
@@ -6967,7 +7202,8 @@
             "evasion": 0,
             "energyShield": 69,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sandsworn Sandals",
@@ -6996,7 +7232,8 @@
             "evasion": 0,
             "energyShield": 75,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mail Sabatons",
@@ -7026,7 +7263,8 @@
             "evasion": 15,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Braced Sabatons",
@@ -7056,7 +7294,8 @@
             "evasion": 28,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stacked Sabatons",
@@ -7086,7 +7325,8 @@
             "evasion": 50,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Covered Sabatons",
@@ -7115,7 +7355,8 @@
             "evasion": 65,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flexile Sabatons",
@@ -7144,7 +7385,8 @@
             "evasion": 74,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bold Sabatons",
@@ -7173,7 +7415,8 @@
             "evasion": 91,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soldiering Sabatons",
@@ -7202,7 +7445,8 @@
             "evasion": 65,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Goldwork Sabatons",
@@ -7231,7 +7475,8 @@
             "evasion": 73,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bastion Sabatons",
@@ -7260,7 +7505,8 @@
             "evasion": 84,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Veteran Sabatons",
@@ -7289,7 +7535,8 @@
             "evasion": 91,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Noble Sabatons",
@@ -7318,7 +7565,8 @@
             "evasion": 101,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fortress Sabatons",
@@ -7347,7 +7595,8 @@
             "evasion": 110,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Padded Leggings",
@@ -7377,7 +7626,8 @@
             "evasion": 0,
             "energyShield": 9,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Secured Leggings",
@@ -7407,7 +7657,8 @@
             "evasion": 0,
             "energyShield": 14,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pelt Leggings",
@@ -7437,7 +7688,8 @@
             "evasion": 0,
             "energyShield": 21,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Weaver Leggings",
@@ -7466,7 +7718,8 @@
             "evasion": 0,
             "energyShield": 26,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gilt Leggings",
@@ -7495,7 +7748,8 @@
             "evasion": 0,
             "energyShield": 29,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pious Leggings",
@@ -7524,7 +7778,8 @@
             "evasion": 0,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Adherent Leggings",
@@ -7553,7 +7808,8 @@
             "evasion": 0,
             "energyShield": 26,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bound Leggings",
@@ -7582,7 +7838,8 @@
             "evasion": 0,
             "energyShield": 29,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shamanistic Leggings",
@@ -7611,7 +7868,8 @@
             "evasion": 0,
             "energyShield": 32,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Faithful Leggings",
@@ -7640,7 +7898,8 @@
             "evasion": 0,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Apostle Leggings",
@@ -7669,7 +7928,8 @@
             "evasion": 0,
             "energyShield": 38,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Warlock Leggings",
@@ -7698,7 +7958,8 @@
             "evasion": 0,
             "energyShield": 42,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Frayed Shoes",
@@ -7728,7 +7989,8 @@
             "evasion": 13,
             "energyShield": 9,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Threaded Shoes",
@@ -7758,7 +8020,8 @@
             "evasion": 28,
             "energyShield": 14,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hunting Shoes",
@@ -7788,7 +8051,8 @@
             "evasion": 50,
             "energyShield": 21,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Steelpoint Shoes",
@@ -7817,7 +8081,8 @@
             "evasion": 65,
             "energyShield": 26,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Velour Shoes",
@@ -7846,7 +8111,8 @@
             "evasion": 74,
             "energyShield": 29,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bladed Shoes",
@@ -7875,7 +8141,8 @@
             "evasion": 91,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wayfarer Shoes",
@@ -7904,7 +8171,8 @@
             "evasion": 65,
             "energyShield": 26,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Silverbuckled Shoes",
@@ -7933,7 +8201,8 @@
             "evasion": 73,
             "energyShield": 29,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Treerunner Shoes",
@@ -7962,7 +8231,8 @@
             "evasion": 84,
             "energyShield": 32,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wanderer Shoes",
@@ -7991,7 +8261,8 @@
             "evasion": 91,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Charmed Shoes",
@@ -8020,7 +8291,8 @@
             "evasion": 101,
             "energyShield": 38,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Quickslip Shoes",
@@ -8049,7 +8321,8 @@
             "evasion": 110,
             "energyShield": 42,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Cuisses",
@@ -8078,7 +8351,8 @@
             "evasion": 60,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Caligae",
@@ -8108,7 +8382,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crude Bow",
@@ -8143,7 +8418,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shortbow",
@@ -8178,7 +8454,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Warden Bow",
@@ -8213,7 +8490,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Recurve Bow",
@@ -8248,7 +8526,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Composite Bow",
@@ -8283,7 +8562,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dualstring Bow",
@@ -8318,7 +8598,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cultist Bow",
@@ -8350,7 +8631,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Zealot Bow",
@@ -8385,7 +8667,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Artillery Bow",
@@ -8419,7 +8702,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tribal Bow",
@@ -8453,7 +8737,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greatbow",
@@ -8487,7 +8772,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Double Limb Bow",
@@ -8521,7 +8807,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heavy Bow",
@@ -8555,7 +8842,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Snakewood Shortbow",
@@ -8589,7 +8877,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Protector Bow",
@@ -8623,7 +8912,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rider Bow",
@@ -8657,7 +8947,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Twin Bow",
@@ -8691,7 +8982,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Adherent Bow",
@@ -8722,7 +9014,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Militant Bow",
@@ -8756,7 +9049,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ironwood Shortbow",
@@ -8790,7 +9084,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cavalry Bow",
@@ -8824,7 +9119,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Guardian Bow",
@@ -8858,7 +9154,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gemini Bow",
@@ -8892,7 +9189,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fanatic Bow",
@@ -8923,7 +9221,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Warmonger Bow",
@@ -8957,7 +9256,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crude Claw",
@@ -8991,7 +9291,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pict Claw",
@@ -9025,7 +9326,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wolfbone Claw",
@@ -9059,7 +9361,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Forked Claw",
@@ -9093,7 +9396,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plated Claw",
@@ -9127,7 +9431,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Edged Claw",
@@ -9161,7 +9466,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Arced Claw",
@@ -9195,7 +9501,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hooked Claw",
@@ -9229,7 +9536,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Razorglass Claw",
@@ -9262,7 +9570,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sharktooth Claw",
@@ -9295,7 +9604,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Armoured Claw",
@@ -9328,7 +9638,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Piercing Claw",
@@ -9361,7 +9672,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Talon Claw",
@@ -9394,7 +9706,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Makeshift Crossbow",
@@ -9429,7 +9742,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tense Crossbow",
@@ -9464,7 +9778,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sturdy Crossbow",
@@ -9499,7 +9814,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Varnished Crossbow",
@@ -9534,7 +9850,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dyad Crossbow",
@@ -9569,7 +9886,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Alloy Crossbow",
@@ -9604,7 +9922,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bombard Crossbow",
@@ -9639,7 +9958,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Construct Crossbow",
@@ -9674,7 +9994,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Blackfire Crossbow",
@@ -9708,7 +10029,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Piercing Crossbow",
@@ -9742,7 +10064,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cumbrous Crossbow",
@@ -9776,7 +10099,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dedalian Crossbow",
@@ -9810,7 +10134,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Esoteric Crossbow",
@@ -9844,7 +10169,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Taut Crossbow",
@@ -9878,7 +10204,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Robust Crossbow",
@@ -9912,7 +10239,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Painted Crossbow",
@@ -9946,7 +10274,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Twin Crossbow",
@@ -9980,7 +10309,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cannonade Crossbow",
@@ -10014,7 +10344,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bleak Crossbow",
@@ -10048,7 +10379,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stout Crossbow",
@@ -10082,7 +10414,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Engraved Crossbow",
@@ -10116,7 +10449,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flexed Crossbow",
@@ -10150,7 +10484,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gemini Crossbow",
@@ -10184,7 +10519,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Siege Crossbow",
@@ -10218,7 +10554,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Desolate Crossbow",
@@ -10252,7 +10589,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ethereal Blade",
@@ -10286,7 +10624,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Glass Shank",
@@ -10320,7 +10659,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crone Knife",
@@ -10354,7 +10694,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Simple Dagger",
@@ -10388,7 +10729,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Skinning Knife",
@@ -10422,7 +10764,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Moon Dagger",
@@ -10453,7 +10796,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Engraved Knife",
@@ -10487,7 +10831,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Obsidian Dagger",
@@ -10521,7 +10866,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bloodletting Dagger",
@@ -10555,7 +10901,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mail Breaker",
@@ -10588,7 +10935,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Kris Knife",
@@ -10621,7 +10969,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Parrying Dagger",
@@ -10654,7 +11003,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Arcane Dirk",
@@ -10687,7 +11037,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cinquedea",
@@ -10720,7 +11071,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fishing Rod",
@@ -10752,7 +11104,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Splintered Flail",
@@ -10786,7 +11139,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Chain Flail",
@@ -10820,7 +11174,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Holy Flail",
@@ -10854,7 +11209,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Flail",
@@ -10888,7 +11244,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Twin Flail",
@@ -10922,7 +11279,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Slender Flail",
@@ -10956,7 +11314,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Flail",
@@ -10990,7 +11349,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ring Flail",
@@ -11024,7 +11384,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Guarded Flail",
@@ -11057,7 +11418,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Icicle Flail",
@@ -11087,7 +11449,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tearing Flail",
@@ -11120,7 +11483,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Great Flail",
@@ -11153,7 +11517,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Abyssal Flail",
@@ -11186,7 +11551,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Thawing Charm",
@@ -11214,7 +11580,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Staunching Charm",
@@ -11242,7 +11609,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Antidote Charm",
@@ -11270,7 +11638,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dousing Charm",
@@ -11298,7 +11667,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grounding Charm",
@@ -11326,7 +11696,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Charm",
@@ -11354,7 +11725,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Silver Charm",
@@ -11382,7 +11754,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ruby Charm",
@@ -11410,7 +11783,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sapphire Charm",
@@ -11438,7 +11812,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Topaz Charm",
@@ -11466,7 +11841,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Amethyst Charm",
@@ -11494,7 +11870,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Charm",
@@ -11522,7 +11899,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Life Flask",
@@ -11550,7 +11928,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Medium Life Flask",
@@ -11578,7 +11957,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Life Flask",
@@ -11606,7 +11986,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Life Flask",
@@ -11634,7 +12015,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Giant Life Flask",
@@ -11662,7 +12044,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Colossal Life Flask",
@@ -11690,7 +12073,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gargantuan Life Flask",
@@ -11718,7 +12102,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Transcendent Life Flask",
@@ -11746,7 +12131,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ultimate Life Flask",
@@ -11774,7 +12160,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Mana Flask",
@@ -11802,7 +12189,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Medium Mana Flask",
@@ -11830,7 +12218,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Mana Flask",
@@ -11858,7 +12247,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Mana Flask",
@@ -11886,7 +12276,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Giant Mana Flask",
@@ -11914,7 +12305,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Colossal Mana Flask",
@@ -11942,7 +12334,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gargantuan Mana Flask",
@@ -11970,7 +12363,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Transcendent Mana Flask",
@@ -11998,7 +12392,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ultimate Mana Flask",
@@ -12026,7 +12421,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Twig Focus",
@@ -12056,7 +12452,8 @@
             "evasion": 0,
             "energyShield": 12,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Woven Focus",
@@ -12086,7 +12483,8 @@
             "evasion": 0,
             "energyShield": 15,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Antler Focus",
@@ -12116,7 +12514,8 @@
             "evasion": 0,
             "energyShield": 17,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Engraved Focus",
@@ -12146,7 +12545,8 @@
             "evasion": 0,
             "energyShield": 21,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tonal Focus",
@@ -12176,7 +12576,8 @@
             "evasion": 0,
             "energyShield": 25,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crystal Focus",
@@ -12206,7 +12607,8 @@
             "evasion": 0,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Voodoo Focus",
@@ -12236,7 +12638,8 @@
             "evasion": 0,
             "energyShield": 32,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plumed Focus",
@@ -12266,7 +12669,8 @@
             "evasion": 0,
             "energyShield": 34,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jade Focus",
@@ -12295,7 +12699,8 @@
             "evasion": 0,
             "energyShield": 40,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Paua Focus",
@@ -12324,7 +12729,8 @@
             "evasion": 0,
             "energyShield": 43,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Focus",
@@ -12353,7 +12759,8 @@
             "evasion": 0,
             "energyShield": 44,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Attuned Focus",
@@ -12382,7 +12789,8 @@
             "evasion": 0,
             "energyShield": 47,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Magus Focus",
@@ -12411,7 +12819,8 @@
             "evasion": 0,
             "energyShield": 52,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wreath Focus",
@@ -12440,7 +12849,8 @@
             "evasion": 0,
             "energyShield": 40,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Staghorn Focus",
@@ -12469,7 +12879,8 @@
             "evasion": 0,
             "energyShield": 42,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jingling Focus",
@@ -12498,7 +12909,8 @@
             "evasion": 0,
             "energyShield": 43,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Arrayed Focus",
@@ -12527,7 +12939,8 @@
             "evasion": 0,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cultist Focus",
@@ -12556,7 +12969,8 @@
             "evasion": 0,
             "energyShield": 49,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hallowed Focus",
@@ -12585,7 +12999,8 @@
             "evasion": 0,
             "energyShield": 50,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Druidic Focus",
@@ -12614,7 +13029,8 @@
             "evasion": 0,
             "energyShield": 52,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Leyline Focus",
@@ -12643,7 +13059,8 @@
             "evasion": 0,
             "energyShield": 58,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sacred Focus",
@@ -12672,7 +13089,8 @@
             "evasion": 0,
             "energyShield": 63,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stocky Mitts",
@@ -12702,7 +13120,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Riveted Mitts",
@@ -12732,7 +13151,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tempered Mitts",
@@ -12762,7 +13182,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bolstered Mitts",
@@ -12792,7 +13213,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Moulded Mitts",
@@ -12822,7 +13244,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Detailed Mitts",
@@ -12851,7 +13274,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Titan Mitts",
@@ -12880,7 +13304,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Mitts",
@@ -12909,7 +13334,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plated Mitts",
@@ -12938,7 +13364,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Mitts",
@@ -12967,7 +13394,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ancient Mitts",
@@ -12996,7 +13424,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Feathered Mitts",
@@ -13025,7 +13454,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Knightly Mitts",
@@ -13054,7 +13484,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ornate Mitts",
@@ -13083,7 +13514,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vaal Mitts",
@@ -13112,7 +13544,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Suede Bracers",
@@ -13142,7 +13575,8 @@
             "evasion": 10,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Firm Bracers",
@@ -13172,7 +13606,8 @@
             "evasion": 26,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bound Bracers",
@@ -13202,7 +13637,8 @@
             "evasion": 33,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sectioned Bracers",
@@ -13232,7 +13668,8 @@
             "evasion": 52,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spined Bracers",
@@ -13262,7 +13699,8 @@
             "evasion": 60,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fine Bracers",
@@ -13291,7 +13729,8 @@
             "evasion": 79,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hardened Bracers",
@@ -13320,7 +13759,8 @@
             "evasion": 90,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Engraved Bracers",
@@ -13349,7 +13789,8 @@
             "evasion": 111,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hunting Bracers",
@@ -13378,7 +13819,8 @@
             "evasion": 79,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Swift Bracers",
@@ -13407,7 +13849,8 @@
             "evasion": 89,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Refined Bracers",
@@ -13436,7 +13879,8 @@
             "evasion": 95,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spiked Bracers",
@@ -13465,7 +13909,8 @@
             "evasion": 101,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stalking Bracers",
@@ -13494,7 +13939,8 @@
             "evasion": 111,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Bracers",
@@ -13523,7 +13969,8 @@
             "evasion": 122,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Barbed Bracers",
@@ -13552,7 +13999,8 @@
             "evasion": 133,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Torn Gloves",
@@ -13582,7 +14030,8 @@
             "evasion": 0,
             "energyShield": 9,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sombre Gloves",
@@ -13612,7 +14061,8 @@
             "evasion": 0,
             "energyShield": 15,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stitched Gloves",
@@ -13642,7 +14092,8 @@
             "evasion": 0,
             "energyShield": 17,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jewelled Gloves",
@@ -13672,7 +14123,8 @@
             "evasion": 0,
             "energyShield": 22,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Intricate Gloves",
@@ -13702,7 +14154,8 @@
             "evasion": 0,
             "energyShield": 26,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pauascale Gloves",
@@ -13731,7 +14184,8 @@
             "evasion": 0,
             "energyShield": 32,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Embroidered Gloves",
@@ -13760,7 +14214,8 @@
             "evasion": 0,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Adorned Gloves",
@@ -13789,7 +14244,8 @@
             "evasion": 0,
             "energyShield": 42,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ominous Gloves",
@@ -13818,7 +14274,8 @@
             "evasion": 0,
             "energyShield": 32,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Baroque Gloves",
@@ -13847,7 +14304,8 @@
             "evasion": 0,
             "energyShield": 37,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gold Gloves",
@@ -13876,7 +14334,8 @@
             "evasion": 0,
             "energyShield": 39,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grim Gloves",
@@ -13905,7 +14364,8 @@
             "evasion": 0,
             "energyShield": 42,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Opulent Gloves",
@@ -13934,7 +14394,8 @@
             "evasion": 0,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vaal Gloves",
@@ -13963,7 +14424,8 @@
             "evasion": 0,
             "energyShield": 50,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ringmail Gauntlets",
@@ -13993,7 +14455,8 @@
             "evasion": 10,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Layered Gauntlets",
@@ -14023,7 +14486,8 @@
             "evasion": 18,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Doubled Gauntlets",
@@ -14053,7 +14517,8 @@
             "evasion": 33,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plate Gauntlets",
@@ -14082,7 +14547,8 @@
             "evasion": 44,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Burnished Gauntlets",
@@ -14111,7 +14577,8 @@
             "evasion": 50,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ornate Gauntlets",
@@ -14140,7 +14607,8 @@
             "evasion": 61,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ironmail Gauntlets",
@@ -14169,7 +14637,8 @@
             "evasion": 44,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Captain Gauntlets",
@@ -14198,7 +14667,8 @@
             "evasion": 49,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Zealot Gauntlets",
@@ -14227,7 +14697,8 @@
             "evasion": 56,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Steelmail Gauntlets",
@@ -14256,7 +14727,8 @@
             "evasion": 61,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Commander Gauntlets",
@@ -14285,7 +14757,8 @@
             "evasion": 67,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cultist Gauntlets",
@@ -14314,7 +14787,8 @@
             "evasion": 73,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rope Cuffs",
@@ -14344,7 +14818,8 @@
             "evasion": 0,
             "energyShield": 6,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Aged Cuffs",
@@ -14374,7 +14849,8 @@
             "evasion": 0,
             "energyShield": 9,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Goldcast Cuffs",
@@ -14404,7 +14880,8 @@
             "evasion": 0,
             "energyShield": 14,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Diviner Cuffs",
@@ -14433,7 +14910,8 @@
             "evasion": 0,
             "energyShield": 17,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Righteous Cuffs",
@@ -14462,7 +14940,8 @@
             "evasion": 0,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Signet Cuffs",
@@ -14491,7 +14970,8 @@
             "evasion": 0,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Braided Cuffs",
@@ -14520,7 +15000,8 @@
             "evasion": 0,
             "energyShield": 17,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heirloom Cuffs",
@@ -14549,7 +15030,8 @@
             "evasion": 0,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ornate Cuffs",
@@ -14578,7 +15060,8 @@
             "evasion": 0,
             "energyShield": 21,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bound Cuffs",
@@ -14607,7 +15090,8 @@
             "evasion": 0,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ancient Cuffs",
@@ -14636,7 +15120,8 @@
             "evasion": 0,
             "energyShield": 25,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gleaming Cuffs",
@@ -14665,7 +15150,8 @@
             "evasion": 0,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gauze Wraps",
@@ -14695,7 +15181,8 @@
             "evasion": 8,
             "energyShield": 6,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Linen Wraps",
@@ -14725,7 +15212,8 @@
             "evasion": 18,
             "energyShield": 9,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spiral Wraps",
@@ -14755,7 +15243,8 @@
             "evasion": 33,
             "energyShield": 14,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Buckled Wraps",
@@ -14784,7 +15273,8 @@
             "evasion": 44,
             "energyShield": 17,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Furtive Wraps",
@@ -14813,7 +15303,8 @@
             "evasion": 50,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Utility Wraps",
@@ -14842,7 +15333,8 @@
             "evasion": 61,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bandage Wraps",
@@ -14871,7 +15363,8 @@
             "evasion": 44,
             "energyShield": 17,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cambric Wraps",
@@ -14900,7 +15393,8 @@
             "evasion": 49,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Adorned Wraps",
@@ -14929,7 +15423,8 @@
             "evasion": 56,
             "energyShield": 21,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "War Wraps",
@@ -14958,7 +15453,8 @@
             "evasion": 61,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Wraps",
@@ -14987,7 +15483,8 @@
             "evasion": 67,
             "energyShield": 25,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vaal Wraps",
@@ -15016,7 +15513,8 @@
             "evasion": 73,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Manchettes",
@@ -15045,7 +15543,8 @@
             "evasion": 40,
             "energyShield": 15,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rusted Greathelm",
@@ -15075,7 +15574,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soldier Greathelm",
@@ -15105,7 +15605,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wrapped Greathelm",
@@ -15135,7 +15636,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spired Greathelm",
@@ -15165,7 +15667,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elite Greathelm",
@@ -15195,7 +15698,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Warrior Greathelm",
@@ -15225,7 +15729,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Commander Greathelm",
@@ -15254,7 +15759,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fierce Greathelm",
@@ -15283,7 +15789,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sentinel Greathelm",
@@ -15312,7 +15819,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Goliath Greathelm",
@@ -15341,7 +15849,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Guardian Greathelm",
@@ -15370,7 +15879,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Corroded Greathelm",
@@ -15399,7 +15909,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mercenary Greathelm",
@@ -15428,7 +15939,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Homeguard Greathelm",
@@ -15457,7 +15969,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Elegant Greathelm",
@@ -15486,7 +15999,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Noble Greathelm",
@@ -15515,7 +16029,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Warmonger Greathelm",
@@ -15544,7 +16059,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Masked Greathelm",
@@ -15573,7 +16089,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Paragon Greathelm",
@@ -15602,7 +16119,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shabby Hood",
@@ -15632,7 +16150,8 @@
             "evasion": 19,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Felt Cap",
@@ -15662,7 +16181,8 @@
             "evasion": 48,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lace Hood",
@@ -15692,7 +16212,8 @@
             "evasion": 67,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Swathed Cap",
@@ -15722,7 +16243,8 @@
             "evasion": 98,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hunter Hood",
@@ -15752,7 +16274,8 @@
             "evasion": 121,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Viper Cap",
@@ -15782,7 +16305,8 @@
             "evasion": 136,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Corsair Cap",
@@ -15811,7 +16335,8 @@
             "evasion": 158,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Leatherbound Hood",
@@ -15840,7 +16365,8 @@
             "evasion": 177,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Velvet Cap",
@@ -15869,7 +16395,8 @@
             "evasion": 181,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Covert Hood",
@@ -15898,7 +16425,8 @@
             "evasion": 193,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Armoured Cap",
@@ -15927,7 +16455,8 @@
             "evasion": 222,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rotted Hood",
@@ -15956,7 +16485,8 @@
             "evasion": 158,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wool Cap",
@@ -15985,7 +16515,8 @@
             "evasion": 168,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Narrow Hood",
@@ -16014,7 +16545,8 @@
             "evasion": 177,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wrapped Cap",
@@ -16043,7 +16575,8 @@
             "evasion": 190,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Deerstalker Hood",
@@ -16072,7 +16605,8 @@
             "evasion": 203,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Woven Cap",
@@ -16101,7 +16635,8 @@
             "evasion": 222,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Desert Cap",
@@ -16130,7 +16665,8 @@
             "evasion": 244,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Trapper Hood",
@@ -16159,7 +16695,8 @@
             "evasion": 266,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Twig Circlet",
@@ -16189,7 +16726,8 @@
             "evasion": 0,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wicker Tiara",
@@ -16219,7 +16757,8 @@
             "evasion": 0,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Beaded Circlet",
@@ -16249,7 +16788,8 @@
             "evasion": 0,
             "energyShield": 34,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Chain Tiara",
@@ -16279,7 +16819,8 @@
             "evasion": 0,
             "energyShield": 44,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Feathered Tiara",
@@ -16309,7 +16850,8 @@
             "evasion": 0,
             "energyShield": 51,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gold Circlet",
@@ -16339,7 +16881,8 @@
             "evasion": 0,
             "energyShield": 58,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Coral Circlet",
@@ -16368,7 +16911,8 @@
             "evasion": 0,
             "energyShield": 63,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jade Tiara",
@@ -16397,7 +16941,8 @@
             "evasion": 0,
             "energyShield": 69,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Noble Circlet",
@@ -16426,7 +16971,8 @@
             "evasion": 0,
             "energyShield": 71,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Twilight Tiara",
@@ -16455,7 +17001,8 @@
             "evasion": 0,
             "energyShield": 77,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Magus Tiara",
@@ -16484,7 +17031,8 @@
             "evasion": 0,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Druidic Circlet",
@@ -16513,7 +17061,8 @@
             "evasion": 0,
             "energyShield": 63,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Avian Tiara",
@@ -16542,7 +17091,8 @@
             "evasion": 0,
             "energyShield": 67,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Desert Circlet",
@@ -16571,7 +17121,8 @@
             "evasion": 0,
             "energyShield": 70,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sandsworn Tiara",
@@ -16600,7 +17151,8 @@
             "evasion": 0,
             "energyShield": 74,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jungle Tiara",
@@ -16629,7 +17181,8 @@
             "evasion": 0,
             "energyShield": 78,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Skycrown Tiara",
@@ -16658,7 +17211,8 @@
             "evasion": 0,
             "energyShield": 84,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sorcerous Tiara",
@@ -16687,7 +17241,8 @@
             "evasion": 0,
             "energyShield": 92,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Kamasan Tiara",
@@ -16716,7 +17271,8 @@
             "evasion": 0,
             "energyShield": 101,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Brimmed Helm",
@@ -16746,7 +17302,8 @@
             "evasion": 18,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Guarded Helm",
@@ -16776,7 +17333,8 @@
             "evasion": 28,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Visored Helm",
@@ -16806,7 +17364,8 @@
             "evasion": 37,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cowled Helm",
@@ -16836,7 +17395,8 @@
             "evasion": 54,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shielded Helm",
@@ -16866,7 +17426,8 @@
             "evasion": 66,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Closed Helm",
@@ -16895,7 +17456,8 @@
             "evasion": 87,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Decorated Helm",
@@ -16924,7 +17486,8 @@
             "evasion": 99,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gallant Helm",
@@ -16953,7 +17516,8 @@
             "evasion": 122,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Domed Helm",
@@ -16982,7 +17546,8 @@
             "evasion": 87,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Engraved Helm",
@@ -17011,7 +17576,8 @@
             "evasion": 92,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soldier Helm",
@@ -17040,7 +17606,8 @@
             "evasion": 98,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cabalist Helm",
@@ -17069,7 +17636,8 @@
             "evasion": 105,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gladiatoral Helm",
@@ -17098,7 +17666,8 @@
             "evasion": 111,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Warded Helm",
@@ -17127,7 +17696,8 @@
             "evasion": 122,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cryptic Helm",
@@ -17156,7 +17726,8 @@
             "evasion": 134,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Champion Helm",
@@ -17185,7 +17756,8 @@
             "evasion": 146,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Crown",
@@ -17215,7 +17787,8 @@
             "evasion": 0,
             "energyShield": 12,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Horned Crown",
@@ -17245,7 +17818,8 @@
             "evasion": 0,
             "energyShield": 15,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cultist Crown",
@@ -17275,7 +17849,8 @@
             "evasion": 0,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Martyr Crown",
@@ -17305,7 +17880,8 @@
             "evasion": 0,
             "energyShield": 25,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heavy Crown",
@@ -17335,7 +17911,8 @@
             "evasion": 0,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spiritbone Crown",
@@ -17364,7 +17941,8 @@
             "evasion": 0,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lavish Crown",
@@ -17393,7 +17971,8 @@
             "evasion": 0,
             "energyShield": 39,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Archon Crown",
@@ -17422,7 +18001,8 @@
             "evasion": 0,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mailed Crown",
@@ -17451,7 +18031,8 @@
             "evasion": 0,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Forest Crown",
@@ -17480,7 +18061,8 @@
             "evasion": 0,
             "energyShield": 37,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Zealot Crown",
@@ -17509,7 +18091,8 @@
             "evasion": 0,
             "energyShield": 38,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hallowed Crown",
@@ -17538,7 +18121,8 @@
             "evasion": 0,
             "energyShield": 41,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Inquisitor Crown",
@@ -17567,7 +18151,8 @@
             "evasion": 0,
             "energyShield": 43,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Druidic Crown",
@@ -17596,7 +18181,8 @@
             "evasion": 0,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Saintly Crown",
@@ -17625,7 +18211,8 @@
             "evasion": 0,
             "energyShield": 51,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Divine Crown",
@@ -17654,7 +18241,8 @@
             "evasion": 0,
             "energyShield": 55,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hewn Mask",
@@ -17684,7 +18272,8 @@
             "evasion": 18,
             "energyShield": 12,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Face Mask",
@@ -17714,7 +18303,8 @@
             "evasion": 26,
             "energyShield": 15,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hooded Mask",
@@ -17744,7 +18334,8 @@
             "evasion": 37,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Veiled Mask",
@@ -17774,7 +18365,8 @@
             "evasion": 58,
             "energyShield": 25,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tribal Mask",
@@ -17804,7 +18396,8 @@
             "evasion": 66,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Solid Mask",
@@ -17833,7 +18426,8 @@
             "evasion": 87,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shaded Mask",
@@ -17862,7 +18456,8 @@
             "evasion": 99,
             "energyShield": 39,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Death Mask",
@@ -17891,7 +18486,8 @@
             "evasion": 122,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Oak Mask",
@@ -17920,7 +18516,8 @@
             "evasion": 87,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bandit Mask",
@@ -17949,7 +18546,8 @@
             "evasion": 92,
             "energyShield": 37,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Skulking Mask",
@@ -17978,7 +18576,8 @@
             "evasion": 98,
             "energyShield": 38,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pariah Mask",
@@ -18007,7 +18606,8 @@
             "evasion": 105,
             "energyShield": 41,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Avian Mask",
@@ -18036,7 +18636,8 @@
             "evasion": 111,
             "energyShield": 43,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Brigand Mask",
@@ -18065,7 +18666,8 @@
             "evasion": 122,
             "energyShield": 46,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Faridun Mask",
@@ -18094,7 +18696,8 @@
             "evasion": 134,
             "energyShield": 51,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soaring Mask",
@@ -18123,7 +18726,8 @@
             "evasion": 146,
             "energyShield": 55,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Visage",
@@ -18152,7 +18756,8 @@
             "evasion": 80,
             "energyShield": 30,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Wreath",
@@ -18182,7 +18787,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Visage",
@@ -18212,7 +18818,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ruby",
@@ -18240,7 +18847,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Emerald",
@@ -18268,7 +18876,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sapphire",
@@ -18296,7 +18905,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Diamond",
@@ -18324,7 +18934,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Time-Lost Ruby",
@@ -18354,7 +18965,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Time-Lost Emerald",
@@ -18384,7 +18996,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Time-Lost Sapphire",
@@ -18414,7 +19027,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Time-Lost Diamond",
@@ -18443,7 +19057,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Timeless Jewel",
@@ -18474,7 +19089,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wooden Club",
@@ -18508,7 +19124,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Smithing Hammer",
@@ -18542,7 +19159,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Slim Mace",
@@ -18576,7 +19194,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spiked Club",
@@ -18610,7 +19229,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Warpick",
@@ -18644,7 +19264,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plated Mace",
@@ -18678,7 +19299,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Brigand Mace",
@@ -18712,7 +19334,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Construct Hammer",
@@ -18746,7 +19369,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Morning Star",
@@ -18779,7 +19403,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jade Club",
@@ -18812,7 +19437,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lumen Mace",
@@ -18845,7 +19471,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Execratus Hammer",
@@ -18878,7 +19505,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Torment Club",
@@ -18911,7 +19539,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Calescent Hammer",
@@ -18944,7 +19573,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flared Mace",
@@ -18977,7 +19607,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Battle Pick",
@@ -19010,7 +19641,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Marching Mace",
@@ -19043,7 +19675,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bandit Mace",
@@ -19076,7 +19709,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Structured Hammer",
@@ -19109,7 +19743,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flanged Mace",
@@ -19142,7 +19777,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crown Mace",
@@ -19175,7 +19811,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Molten Hammer",
@@ -19208,7 +19845,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Strife Pick",
@@ -19241,7 +19879,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fortified Hammer",
@@ -19274,7 +19913,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Marauding Mace",
@@ -19307,7 +19947,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Felled Greatclub",
@@ -19341,7 +19982,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Oak Greathammer",
@@ -19375,7 +20017,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Forge Maul",
@@ -19409,7 +20052,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Studded Greatclub",
@@ -19443,7 +20087,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cultist Greathammer",
@@ -19477,7 +20122,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Temple Maul",
@@ -19511,7 +20157,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Leaden Greathammer",
@@ -19545,7 +20192,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crumbling Maul",
@@ -19579,7 +20227,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pointed Maul",
@@ -19612,7 +20261,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Totemic Greatclub",
@@ -19645,7 +20295,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greatmace",
@@ -19678,7 +20329,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Precise Greathammer",
@@ -19711,7 +20363,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Giant Maul",
@@ -19744,7 +20397,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Snakewood Greathammer",
@@ -19777,7 +20431,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Blacksmith Maul",
@@ -19810,7 +20465,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Zealot Greathammer",
@@ -19843,7 +20499,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Solemn Maul",
@@ -19876,7 +20533,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heavy Greathammer",
@@ -19909,7 +20567,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Disintegrating Maul",
@@ -19942,7 +20601,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Anvil Maul",
@@ -19975,7 +20635,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sacred Maul",
@@ -20008,7 +20669,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ironwood Greathammer",
@@ -20041,7 +20703,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fanatic Greathammer",
@@ -20074,7 +20737,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ruination Maul",
@@ -20107,7 +20771,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Massive Greathammer",
@@ -20140,7 +20805,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Broadhead Quiver",
@@ -20167,7 +20833,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fire Quiver",
@@ -20194,7 +20861,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sacral Quiver",
@@ -20221,7 +20889,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Two-Point Quiver",
@@ -20248,7 +20917,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Blunt Quiver",
@@ -20275,7 +20945,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Toxic Quiver",
@@ -20302,7 +20973,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Serrated Quiver",
@@ -20329,7 +21001,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Primed Quiver",
@@ -20356,7 +21029,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Penetrating Quiver",
@@ -20383,7 +21057,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Volant Quiver",
@@ -20410,7 +21085,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Visceral Quiver",
@@ -20437,7 +21113,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Hoop",
@@ -20466,7 +21143,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Ring",
@@ -20493,7 +21171,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lazuli Ring",
@@ -20520,7 +21199,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ruby Ring",
@@ -20547,7 +21227,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sapphire Ring",
@@ -20574,7 +21255,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Topaz Ring",
@@ -20601,7 +21283,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Amethyst Ring",
@@ -20628,7 +21311,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Emerald Ring",
@@ -20655,7 +21339,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pearl Ring",
@@ -20682,7 +21367,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Prismatic Ring",
@@ -20709,7 +21395,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gold Ring",
@@ -20736,7 +21423,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Unset Ring",
@@ -20763,7 +21451,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dusk Ring",
@@ -20790,7 +21479,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gloam Ring",
@@ -20817,7 +21507,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Penumbra Ring",
@@ -20844,7 +21535,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Tenebrous Ring",
@@ -20871,7 +21563,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Breach Ring",
@@ -20898,7 +21591,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rattling Sceptre",
@@ -20926,7 +21620,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Stoic Sceptre",
@@ -20954,7 +21649,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Lupine Sceptre",
@@ -20982,7 +21678,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Omen Sceptre",
@@ -21010,7 +21707,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Ochre Sceptre",
@@ -21038,7 +21736,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Shrine Sceptre",
@@ -21066,7 +21765,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Devouring Sceptre",
@@ -21094,7 +21794,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Clasped Sceptre",
@@ -21122,7 +21823,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Devotional Sceptre",
@@ -21150,7 +21852,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Wrath Sceptre",
@@ -21178,7 +21881,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Aromatic Sceptre",
@@ -21206,7 +21910,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Pious Sceptre",
@@ -21234,7 +21939,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Hallowed Sceptre",
@@ -21262,7 +21968,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Shrine Sceptre (Purity of Fire)",
@@ -21290,7 +21997,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Shrine Sceptre (Purity of Cold)",
@@ -21318,7 +22026,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Shrine Sceptre (Purity of Lighting)",
@@ -21346,7 +22055,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": 100
     },
     {
         "name": "Splintered Tower Shield",
@@ -21377,7 +22087,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Painted Tower Shield",
@@ -21408,7 +22119,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Braced Tower Shield",
@@ -21439,7 +22151,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Barricade Tower Shield",
@@ -21470,7 +22183,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Effigial Tower Shield",
@@ -21501,7 +22215,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rampart Tower Shield",
@@ -21532,7 +22247,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Heraldric Tower Shield",
@@ -21563,7 +22279,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Tower Shield",
@@ -21594,7 +22311,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crucible Tower Shield",
@@ -21624,7 +22342,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ancestor Tower Shield",
@@ -21654,7 +22373,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Phalanx Tower Shield",
@@ -21684,7 +22404,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Defiant Tower Shield",
@@ -21714,7 +22435,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Blacksteel Tower Shield",
@@ -21744,7 +22466,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Aged Tower Shield",
@@ -21774,7 +22497,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Metalworked Tower Shield",
@@ -21804,7 +22528,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cultist Tower Shield",
@@ -21834,7 +22559,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bulwark Tower Shield",
@@ -21864,7 +22590,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Noble Tower Shield",
@@ -21894,7 +22621,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Goldworked Tower Shield",
@@ -21924,7 +22652,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Royal Tower Shield",
@@ -21954,7 +22683,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fortress Tower Shield",
@@ -21984,7 +22714,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vaal Tower Shield",
@@ -22014,7 +22745,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Leather Buckler",
@@ -22046,7 +22778,8 @@
             "evasion": 10,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wooden Buckler",
@@ -22078,7 +22811,8 @@
             "evasion": 16,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Plated Buckler",
@@ -22110,7 +22844,8 @@
             "evasion": 26,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Buckler",
@@ -22142,7 +22877,8 @@
             "evasion": 33,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ridged Buckler",
@@ -22174,7 +22910,8 @@
             "evasion": 43,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spiked Buckler",
@@ -22206,7 +22943,8 @@
             "evasion": 49,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ringed Buckler",
@@ -22238,7 +22976,8 @@
             "evasion": 60,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Edged Buckler",
@@ -22270,7 +23009,8 @@
             "evasion": 70,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Laminate Buckler",
@@ -22301,7 +23041,8 @@
             "evasion": 79,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pearl Buckler",
@@ -22332,7 +23073,8 @@
             "evasion": 84,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ornate Buckler",
@@ -22363,7 +23105,8 @@
             "evasion": 111,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Array Buckler",
@@ -22394,7 +23137,8 @@
             "evasion": 95,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Aegis Buckler",
@@ -22425,7 +23169,8 @@
             "evasion": 111,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Oak Buckler",
@@ -22456,7 +23201,8 @@
             "evasion": 79,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Painted Buckler",
@@ -22487,7 +23233,8 @@
             "evasion": 84,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Coiled Buckler",
@@ -22518,7 +23265,8 @@
             "evasion": 89,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spikeward Buckler",
@@ -22549,7 +23297,8 @@
             "evasion": 95,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jingling Buckler",
@@ -22580,7 +23329,8 @@
             "evasion": 101,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bladeguard Buckler",
@@ -22611,7 +23361,8 @@
             "evasion": 105,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gutspike Buckler",
@@ -22642,7 +23393,8 @@
             "evasion": 122,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ancient Buckler",
@@ -22673,7 +23425,8 @@
             "evasion": 133,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hardwood Targe",
@@ -22704,7 +23457,8 @@
             "evasion": 7,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pelage Targe",
@@ -22735,7 +23489,8 @@
             "evasion": 14,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Studded Targe",
@@ -22766,7 +23521,8 @@
             "evasion": 23,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crescent Targe",
@@ -22797,7 +23553,8 @@
             "evasion": 34,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Chiseled Targe",
@@ -22828,7 +23585,8 @@
             "evasion": 41,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Feathered Targe",
@@ -22859,7 +23617,8 @@
             "evasion": 46,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stratified Targe",
@@ -22889,7 +23648,8 @@
             "evasion": 54,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Carved Targe",
@@ -22919,7 +23679,8 @@
             "evasion": 57,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mosaic Targe",
@@ -22949,7 +23710,8 @@
             "evasion": 62,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Aureate Targe",
@@ -22979,7 +23741,8 @@
             "evasion": 68,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Targe",
@@ -23009,7 +23772,8 @@
             "evasion": 76,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ironwood Targe",
@@ -23039,7 +23803,8 @@
             "evasion": 54,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Fur-lined Targe",
@@ -23069,7 +23834,8 @@
             "evasion": 58,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mercenary Targe",
@@ -23099,7 +23865,8 @@
             "evasion": 61,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Polished Targe",
@@ -23129,7 +23896,8 @@
             "evasion": 65,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Targe",
@@ -23159,7 +23927,8 @@
             "evasion": 70,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Avian Targe",
@@ -23189,7 +23958,8 @@
             "evasion": 73,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mammoth Targe",
@@ -23219,7 +23989,8 @@
             "evasion": 76,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Baroque Targe",
@@ -23249,7 +24020,8 @@
             "evasion": 84,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soaring Targe",
@@ -23279,7 +24051,8 @@
             "evasion": 91,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Blazon Crest Shield",
@@ -23310,7 +24083,8 @@
             "evasion": 0,
             "energyShield": 6,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sigil Crest Shield",
@@ -23341,7 +24115,8 @@
             "evasion": 0,
             "energyShield": 8,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Emblem Crest Shield",
@@ -23372,7 +24147,8 @@
             "evasion": 0,
             "energyShield": 12,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jingling Crest Shield",
@@ -23403,7 +24179,8 @@
             "evasion": 0,
             "energyShield": 16,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sectarian Crest Shield",
@@ -23434,7 +24211,8 @@
             "evasion": 0,
             "energyShield": 18,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Omen Crest Shield",
@@ -23465,7 +24243,8 @@
             "evasion": 0,
             "energyShield": 19,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wayward Crest Shield",
@@ -23495,7 +24274,8 @@
             "evasion": 0,
             "energyShield": 22,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Seer Crest Shield",
@@ -23525,7 +24305,8 @@
             "evasion": 0,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stoic Crest Shield",
@@ -23555,7 +24336,8 @@
             "evasion": 0,
             "energyShield": 24,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Empyreal Crest Shield",
@@ -23585,7 +24367,8 @@
             "evasion": 0,
             "energyShield": 26,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Deified Crest Shield",
@@ -23615,7 +24398,8 @@
             "evasion": 0,
             "energyShield": 29,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Painted Crest Shield",
@@ -23645,7 +24429,8 @@
             "evasion": 0,
             "energyShield": 22,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Engraved Crest Shield",
@@ -23675,7 +24460,8 @@
             "evasion": 0,
             "energyShield": 23,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Descry Crest Shield",
@@ -23705,7 +24491,8 @@
             "evasion": 0,
             "energyShield": 24,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dekharan Crest Shield",
@@ -23735,7 +24522,8 @@
             "evasion": 0,
             "energyShield": 25,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Quartered Crest Shield",
@@ -23765,7 +24553,8 @@
             "evasion": 0,
             "energyShield": 27,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Glowering Crest Shield",
@@ -23795,7 +24584,8 @@
             "evasion": 0,
             "energyShield": 28,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Intricate Crest Shield",
@@ -23825,7 +24615,8 @@
             "evasion": 0,
             "energyShield": 29,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sekheman Crest Shield",
@@ -23855,7 +24646,8 @@
             "evasion": 0,
             "energyShield": 32,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vaal Crest Shield",
@@ -23885,7 +24677,8 @@
             "evasion": 0,
             "energyShield": 35,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Flame",
@@ -23915,7 +24708,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Tacati",
@@ -23943,7 +24737,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Opiloti",
@@ -23971,7 +24766,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Jiquani",
@@ -23999,7 +24795,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Zalatl",
@@ -24027,7 +24824,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Citaqualotl",
@@ -24055,7 +24853,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Puhuarte",
@@ -24083,7 +24882,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Tzamoto",
@@ -24111,7 +24911,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Xopec",
@@ -24139,7 +24940,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Azcapa",
@@ -24167,7 +24969,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Topotante",
@@ -24195,7 +24998,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Quipolatl",
@@ -24223,7 +25027,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Ticaba",
@@ -24251,7 +25056,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Atmohua",
@@ -24279,7 +25085,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Cholotl",
@@ -24307,7 +25114,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Soul Core of Zantipi",
@@ -24335,7 +25143,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Desert Rune",
@@ -24361,7 +25170,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Glacial Rune",
@@ -24387,7 +25197,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Storm Rune",
@@ -24413,7 +25224,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Rune",
@@ -24439,7 +25251,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Body Rune",
@@ -24465,7 +25278,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Mind Rune",
@@ -24491,7 +25305,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rebirth Rune",
@@ -24517,7 +25332,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Inspiration Rune",
@@ -24543,7 +25359,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Rune",
@@ -24569,7 +25386,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vision Rune",
@@ -24595,7 +25413,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Desert Rune",
@@ -24621,7 +25440,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Glacial Rune",
@@ -24647,7 +25467,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Storm Rune",
@@ -24673,7 +25494,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Iron Rune",
@@ -24699,7 +25521,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Body Rune",
@@ -24725,7 +25548,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Mind Rune",
@@ -24751,7 +25575,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Rebirth Rune",
@@ -24777,7 +25602,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Inspiration Rune",
@@ -24803,7 +25629,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Stone Rune",
@@ -24829,7 +25656,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lesser Vision Rune",
@@ -24855,7 +25683,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Desert Rune",
@@ -24881,7 +25710,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Glacial Rune",
@@ -24907,7 +25737,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Storm Rune",
@@ -24933,7 +25764,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Iron Rune",
@@ -24959,7 +25791,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Body Rune",
@@ -24985,7 +25818,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Mind Rune",
@@ -25011,7 +25845,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Rebirth Rune",
@@ -25037,7 +25872,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Inspiration Rune",
@@ -25063,7 +25899,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Stone Rune",
@@ -25089,7 +25926,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Vision Rune",
@@ -25115,7 +25953,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Rune of Leadership",
@@ -25141,7 +25980,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Rune of Tithing",
@@ -25167,7 +26007,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Rune of Alacrity",
@@ -25193,7 +26034,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Greater Rune of Nobility",
@@ -25219,7 +26061,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hardwood Spear",
@@ -25253,7 +26096,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ironhead Spear",
@@ -25287,7 +26131,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hunting Spear",
@@ -25321,7 +26166,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Winged Spear",
@@ -25355,7 +26201,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "War Spear",
@@ -25389,7 +26236,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Forked Spear",
@@ -25423,7 +26271,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Barbed Spear",
@@ -25457,7 +26306,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Broad Spear",
@@ -25491,7 +26341,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crossblade Spear",
@@ -25524,7 +26375,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Seaglass Spear",
@@ -25557,7 +26409,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sword Spear",
@@ -25590,7 +26443,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Striking Spear",
@@ -25620,7 +26474,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Helix Spear",
@@ -25653,7 +26508,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Steelhead Spear",
@@ -25686,7 +26542,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Coursing Spear",
@@ -25719,7 +26576,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Swift Spear",
@@ -25752,7 +26610,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Branched Spear",
@@ -25785,7 +26644,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Jagged Spear",
@@ -25818,7 +26678,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Massive Spear",
@@ -25851,7 +26712,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Orichalcum Spear",
@@ -25884,7 +26746,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pronged Spear",
@@ -25917,7 +26780,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stalking Spear",
@@ -25950,7 +26814,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flying Spear",
@@ -25983,7 +26848,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Grand Spear",
@@ -26016,7 +26882,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spiked Spear",
@@ -26049,7 +26916,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ashen Staff",
@@ -26081,7 +26949,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gelid Staff",
@@ -26113,7 +26982,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Voltaic Staff",
@@ -26145,7 +27015,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spriggan Staff",
@@ -26173,7 +27044,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Pyrophyte Staff",
@@ -26205,7 +27077,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Chiming Staff",
@@ -26233,7 +27106,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rending Staff",
@@ -26265,7 +27139,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Reaping Staff",
@@ -26297,7 +27172,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Icicle Staff",
@@ -26329,7 +27205,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Roaring Staff",
@@ -26357,7 +27234,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Paralysing Staff",
@@ -26389,7 +27267,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cleric Staff",
@@ -26417,7 +27296,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dark Staff",
@@ -26445,7 +27325,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wrapped Quarterstaff",
@@ -26479,7 +27360,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Long Quarterstaff",
@@ -26513,7 +27395,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Gothic Quarterstaff",
@@ -26547,7 +27430,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crackling Quarterstaff",
@@ -26578,7 +27462,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Crescent Quarterstaff",
@@ -26612,7 +27497,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Steelpoint Quarterstaff",
@@ -26646,7 +27532,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Slicing Quarterstaff",
@@ -26680,7 +27567,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Barrier Quarterstaff",
@@ -26714,7 +27602,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Hefty Quarterstaff",
@@ -26747,7 +27636,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Smooth Quarterstaff",
@@ -26780,7 +27670,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Anima Quarterstaff",
@@ -26813,7 +27704,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Graceful Quarterstaff",
@@ -26846,7 +27738,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Wyrm Quarterstaff",
@@ -26879,7 +27772,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Reaching Quarterstaff",
@@ -26912,7 +27806,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Barbarous Quarterstaff",
@@ -26945,7 +27840,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Arcing Quarterstaff",
@@ -26975,7 +27871,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Waxing Quarterstaff",
@@ -27008,7 +27905,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bladed Quarterstaff",
@@ -27041,7 +27939,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Guardian Quarterstaff",
@@ -27074,7 +27973,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sinister Quarterstaff",
@@ -27107,7 +28007,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lunar Quarterstaff",
@@ -27140,7 +28041,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Striking Quarterstaff",
@@ -27173,7 +28075,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bolting Quarterstaff",
@@ -27203,7 +28106,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Aegis Quarterstaff",
@@ -27236,7 +28140,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Razor Quarterstaff",
@@ -27269,7 +28174,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Golden Blade",
@@ -27303,7 +28209,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Energy Blade One Handed",
@@ -27334,7 +28241,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shortsword",
@@ -27368,7 +28276,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Broadsword",
@@ -27402,7 +28311,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Vampiric Blade",
@@ -27436,7 +28346,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Scimitar",
@@ -27470,7 +28381,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Charred Shortsword",
@@ -27504,7 +28416,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Sickle Sword",
@@ -27538,7 +28451,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Falchion",
@@ -27572,7 +28486,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Treasured Blade",
@@ -27606,7 +28521,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Cutlass",
@@ -27639,7 +28555,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Runic Shortsword",
@@ -27672,7 +28589,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Messer",
@@ -27705,7 +28623,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Commander Sword",
@@ -27738,7 +28657,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dark Blade",
@@ -27771,7 +28691,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Keyblade",
@@ -27805,7 +28726,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Energy Blade Two Handed",
@@ -27836,7 +28758,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Corroded Longsword",
@@ -27870,7 +28793,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Iron Greatsword",
@@ -27904,7 +28828,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Blessed Claymore",
@@ -27938,7 +28863,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Broad Greatsword",
@@ -27972,7 +28898,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Rippled Greatsword",
@@ -28006,7 +28933,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Arced Longsword",
@@ -28040,7 +28968,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Stone Greatsword",
@@ -28074,7 +29003,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Obsidian Greatsword",
@@ -28108,7 +29038,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Keen Greatsword",
@@ -28141,7 +29072,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ancient Greatblade",
@@ -28174,7 +29106,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Flanged Greatblade",
@@ -28207,7 +29140,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Regalia Longsword",
@@ -28240,7 +29174,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Ultra Greatsword",
@@ -28273,7 +29208,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Clay Trap",
@@ -28301,7 +29237,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Clamping Trap",
@@ -28329,7 +29266,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Shrapnel Trap",
@@ -28357,7 +29295,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Urn Trap",
@@ -28385,7 +29324,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Incense Trap",
@@ -28413,7 +29353,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bladed Trap",
@@ -28441,7 +29382,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dart Trap",
@@ -28469,7 +29411,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Spike Trap",
@@ -28497,7 +29440,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Coiled Trap",
@@ -28525,7 +29469,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Lead Trap",
@@ -28553,7 +29498,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Medallion Trap",
@@ -28581,7 +29527,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Intricate Trap",
@@ -28609,7 +29556,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Refined Trap",
@@ -28637,7 +29585,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Withered Wand",
@@ -28669,7 +29618,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Bone Wand",
@@ -28701,7 +29651,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Attuned Wand",
@@ -28729,7 +29680,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Siphoning Wand",
@@ -28757,7 +29709,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Volatile Wand",
@@ -28789,7 +29742,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Galvanic Wand",
@@ -28821,7 +29775,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Acrid Wand",
@@ -28849,7 +29804,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Offering Wand",
@@ -28881,7 +29837,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Frigid Wand",
@@ -28913,7 +29870,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Torture Wand",
@@ -28941,7 +29899,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Critical Wand",
@@ -28969,7 +29928,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Primordial Wand",
@@ -29001,7 +29961,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Dueling Wand",
@@ -29029,7 +29990,8 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     },
     {
         "name": "Random Wand",
@@ -29056,6 +30018,7 @@
             "evasion": 0,
             "energyShield": 0,
             "ward": 0
-        }
+        },
+        "spirit": null
     }
 ]

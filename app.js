@@ -127,7 +127,14 @@ const armorTagToSubclass = {
     'str_dex_armour': 'Strength/Dexterity Armor',
     'str_int_armour': 'Strength/Intelligence Armor',
     'dex_int_armour': 'Dexterity/Intelligence Armor',
-    'str_dex_int_armour': 'Strength/Dexterity/Intelligence Armor'
+    'str_dex_int_armour': 'Strength/Dexterity/Intelligence Armor',
+    'str_shield': 'Strength Shield',
+    'dex_shield': 'Dexterity Shield',
+    'int_shield': 'Intelligence Shield',
+    'str_dex_shield': 'Strength/Dexterity Shield',
+    'str_int_shield': 'Strength/Intelligence Shield',
+    'dex_int_shield': 'Dexterity/Intelligence Shield',
+    'str_dex_int_shield': 'Strength/Dexterity/Intelligence Shield'
 };
 
 // Add at the top of the file
@@ -313,12 +320,12 @@ async function initializeSearch() {
 
 function createButtons() {
     const categories = {
-        'Armour': ['Body Armour', 'Boots', 'Gloves', 'Helmet', 'Shield'],
+        'Armour': ['Body Armour', 'Boots', 'Gloves', 'Helmet'],
         'Weapons': ['Bow', 'Claw', 'Crossbow', 'Dagger', 'Fishing Rod', 'Flail', 'One Handed Axe', 
                    'One Handed Mace', 'One Handed Sword', 'Sceptre', 'Spear', 'Staff', 'Warstaff', 
                    'Two Handed Axe', 'Two Handed Mace', 'Two Handed Sword', 'Wand'],
         'Jewelry': ['Amulet', 'Belt', 'Ring'],
-        'Off-hand': ['Quiver', 'TrapTool', 'Focus'],
+        'Off-hand': ['Quiver', 'TrapTool', 'Focus', 'Shield'],
         'Misc': ['Charm', 'Flask', 'Jewel', 'Rune', 'SoulCore']
     };
 
@@ -391,7 +398,7 @@ function updateSubclassButtons(itemClass) {
 
     subclassContainer.innerHTML = '';
 
-    // Only show subclass buttons for armor types
+    // Show subclass buttons for armor types and shields
     if (ARMOR_TYPES.includes(itemClass)) {
         subclassContainer.style.display = 'flex';
 
@@ -405,6 +412,7 @@ function updateSubclassButtons(itemClass) {
         // Get available subtypes for this armor class
         const availableSubtypes = new Set();
         (itemsByClass[itemClass] || []).forEach(item => {
+            // Check tags for armor and shield subtypes
             item.tags.forEach(tag => {
                 if (armorTagToSubclass[tag]) {
                     availableSubtypes.add(tag);
@@ -582,13 +590,15 @@ function displayResults(results) {
     if (usedColumns.cooldown) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Cooldown</th>';
     if (usedColumns.duration) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Duration</th>';
     if (usedColumns.radius) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Radius</th>';
+
+    // Add spirit header if used
+    if (usedColumns.spirit) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Spirit</th>';
     
     table += '</tr></thead><tbody>';
 
     results.forEach(item => {
         table += '<tr>';
         table += `<td>${item.name || ''}</td>`;
-        // Format implicit modifiers with line breaks
         const implicit = item.implicit ? item.implicit.replace(/\\n/g, '<br>') : '';
         table += `<td>${implicit}</td>`;
         
@@ -617,6 +627,9 @@ function displayResults(results) {
         if (usedColumns.cooldown) table += `<td>${item.trapStats?.cooldown || 0}</td>`;
         if (usedColumns.duration) table += `<td>${item.trapStats?.duration || 0}</td>`;
         if (usedColumns.radius) table += `<td>${item.trapStats?.radius || 0}</td>`;
+
+        // Add spirit value if used
+        if (usedColumns.spirit) table += `<td>${item.spirit || 0}</td>`;
         
         table += '</tr>';
     });
@@ -642,10 +655,10 @@ function analyzeColumns(results) {
         attacksPerSecond: false,
         criticalStrikeChance: false,
         range: false,
-        // Add trap stats
         cooldown: false,
         duration: false,
-        radius: false
+        radius: false,
+        spirit: false
     };
 
     results.forEach(item => {
@@ -681,6 +694,11 @@ function analyzeColumns(results) {
             usedColumns.cooldown = true;
             usedColumns.duration = true;
             usedColumns.radius = true;
+        }
+
+        // Check spirit for sceptres
+        if (item.spirit !== null && item.spirit > 0) {
+            usedColumns.spirit = true;
         }
     });
 

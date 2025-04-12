@@ -32,7 +32,8 @@ const typeToClass = {
     'Flail': 'Flail',
     'Focus': 'Focus',
     'Charm': 'Charm',
-    'Flask': 'Flask'
+    'Flask': 'Flask',
+    'Sceptre': 'Sceptre'
 };
 
 // Armor tag mapping for subcategories
@@ -83,20 +84,29 @@ function extractItems() {
                     if (subTypeMatch && subTypeMatch[1] === "Warstaff") {
                         itemClass = "Warstaff";
                     }
-                    // Keep it as "Staff" for regular staves
                 }
 
-                // Extract tags properly from the tags block
-                const tagsBlock = block.match(/tags = {([^}]+)}/);
+                // Extract spirit for sceptres
+                let spirit = null;
+                if (itemClass === "Sceptre") {
+                    const spiritMatch = block.match(/spirit = ([0-9]+)/);
+                    if (spiritMatch) {
+                        spirit = parseInt(spiritMatch[1]);
+                    }
+                }
+
+                // Extract tags
                 const tags = [];
-                if (tagsBlock) {
-                    const tagContent = tagsBlock[1];
-                    // Match all "tag = true" patterns
-                    const tagMatches = tagContent.match(/(\w+)\s*=\s*true/g) || [];
-                    tagMatches.forEach(match => {
-                        const tag = match.split('=')[0].trim();
+                const tagMatch = block.match(/tags = {([^}]+)}/);
+                if (tagMatch) {
+                    const tagContent = tagMatch[1];
+                    const tagRegex = /"([^"]+)"/g;
+                    let match;
+                    while ((match = tagRegex.exec(tagContent)) !== null) {
+                        // Replace 'buckler' tag with 'dex_armour' for shields
+                        const tag = match[1] === 'buckler' ? 'dex_armour' : match[1];
                         tags.push(tag);
-                    });
+                    }
                 }
 
                 // Extract weapon stats from the weapon block
@@ -180,7 +190,8 @@ function extractItems() {
                     tags,
                     requirements,
                     weaponStats,
-                    armorStats
+                    armorStats,
+                    spirit
                 });
             } catch (error) {
                 console.error(`Error processing item block: ${error}`);
