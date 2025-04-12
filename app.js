@@ -32,8 +32,23 @@ let lastSort = {
 
 // Update the COLUMN_WIDTHS constant at the top
 const COLUMN_WIDTHS = {
+    // Dynamic columns (will be calculated)
     name: 0,  // Will be calculated dynamically
     class: 0, // Will be calculated dynamically
+    
+    // Fixed width columns
+    numeric: {
+        width: '70px',
+        minWidth: '70px',
+        maxWidth: '70px',
+        padding: '4px 6px'
+    },
+    range: {
+        width: '75px',
+        minWidth: '75px',
+        maxWidth: '75px',
+        padding: '4px 6px'
+    },
     implicit: 200,  // Fixed width for implicit column
     requirements: {
         level: 100,
@@ -184,37 +199,39 @@ function applyColumnWidths() {
             width: ${COLUMN_WIDTHS.name}ch;
             min-width: ${COLUMN_WIDTHS.name}ch;
             max-width: ${COLUMN_WIDTHS.name}ch;
+            padding: 4px 6px;
         }
         .table-container th:nth-child(2),
         .table-container td:nth-child(2) {
             width: ${COLUMN_WIDTHS.class}ch;
             min-width: ${COLUMN_WIDTHS.class}ch;
             max-width: ${COLUMN_WIDTHS.class}ch;
+            padding: 4px 6px;
         }
         
         /* All numeric columns get consistent width */
         .table-container th.numeric,
         .table-container td.numeric {
-            width: 100px;
-            min-width: 100px;
-            max-width: 100px;
+            width: ${COLUMN_WIDTHS.numeric.width};
+            min-width: ${COLUMN_WIDTHS.numeric.minWidth};
+            max-width: ${COLUMN_WIDTHS.numeric.maxWidth};
+            padding: ${COLUMN_WIDTHS.numeric.padding};
+            text-align: right;
         }
         
         /* Range columns (for physical damage etc) */
         .table-container th.range-col,
         .table-container td.range-col {
-            width: 120px;
-            min-width: 120px;
-            max-width: 120px;
+            width: ${COLUMN_WIDTHS.range.width};
+            min-width: ${COLUMN_WIDTHS.range.minWidth};
+            max-width: ${COLUMN_WIDTHS.range.maxWidth};
+            padding: ${COLUMN_WIDTHS.range.padding};
+            text-align: right;
         }
         
         /* Ensure table maintains width */
         .table-container table {
-            min-width: 800px; /* Minimum width to prevent shrinking */
-        }
-        
-        /* Force table to use fixed layout */
-        .table-container table {
+            min-width: 600px; /* Reduced minimum width */
             table-layout: fixed;
             width: 100%;
         }
@@ -225,6 +242,12 @@ function applyColumnWidths() {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
+        }
+        
+        /* Make headers more compact */
+        .table-container th {
+            padding: 4px 6px;
+            font-size: 0.95em;
         }
     `;
 }
@@ -640,21 +663,56 @@ function displayResults(results) {
     // Add requirement headers if used
     if (usedColumns.level) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Level</th>';
     if (usedColumns.strength) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Str</th>';
+    if (usedColumns.dexterity) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Dex</th>';
+    if (usedColumns.intelligence) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Int</th>';
+    
+    // Add armor stats headers if any armor stats are used
+    let hasArmorStats = false;
+    const armorStats = {
+        armor: results.some(item => item.armorStats?.armor > 0),
+        evasion: results.some(item => item.armorStats?.evasion > 0),
+        energyShield: results.some(item => item.armorStats?.energyShield > 0),
+        ward: results.some(item => item.armorStats?.ward > 0)
+    };
+
+    if (Object.values(armorStats).some(Boolean)) {
+        hasArmorStats = true;
+        if (armorStats.armor) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Armor</th>';
+        if (armorStats.evasion) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Evasion</th>';
+        if (armorStats.energyShield) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Energy Shield</th>';
+        if (armorStats.ward) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Ward</th>';
+    }
     
     // Add damage type headers if any weapon stats are used
     let hasWeaponStats = false;
+    const weaponStats = {
+        damage: {},
+        attacksPerSecond: results.some(item => item.weaponStats?.attacksPerSecond > 0),
+        criticalStrikeChance: results.some(item => item.weaponStats?.criticalStrikeChance > 0),
+        range: results.some(item => item.weaponStats?.range > 0)
+    };
+
+    // Check each damage type
     damageTypes.forEach(type => {
-        if (usedColumns[type]) {
-            hasWeaponStats = true;
-            table += `<th class="sortable numeric" onclick="sortTable(this, 'range')">${type.charAt(0).toUpperCase() + type.slice(1)}</th>`;
+        weaponStats.damage[type] = results.some(item => {
+            const dmg = item.weaponStats?.damage?.[type];
+            return dmg && (dmg.min > 0 || dmg.max > 0);
+        });
+        if (weaponStats.damage[type]) hasWeaponStats = true;
+    });
+
+    // Add damage type headers
+    damageTypes.forEach(type => {
+        if (weaponStats.damage[type]) {
+            table += `<th class="sortable numeric range-col" onclick="sortTable(this, 'range')">${type.charAt(0).toUpperCase() + type.slice(1)}</th>`;
         }
     });
     
     // Add other weapon stats if we have any damage types
     if (hasWeaponStats) {
-        table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">APS</th>';
-        table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Crit</th>';
-        table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Range</th>';
+        if (weaponStats.attacksPerSecond) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">APS</th>';
+        if (weaponStats.criticalStrikeChance) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Crit</th>';
+        if (weaponStats.range) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Range</th>';
     }
 
     table += '</tr></thead><tbody>';
@@ -668,20 +726,30 @@ function displayResults(results) {
         // Add requirement values if used
         if (usedColumns.level) table += `<td class="numeric">${item.requirements?.level || ''}</td>`;
         if (usedColumns.strength) table += `<td class="numeric">${item.requirements?.strength || ''}</td>`;
+        if (usedColumns.dexterity) table += `<td class="numeric">${item.requirements?.dexterity || ''}</td>`;
+        if (usedColumns.intelligence) table += `<td class="numeric">${item.requirements?.intelligence || ''}</td>`;
+        
+        // Add armor stats if we have any
+        if (hasArmorStats) {
+            if (armorStats.armor) table += `<td class="numeric">${item.armorStats?.armor || ''}</td>`;
+            if (armorStats.evasion) table += `<td class="numeric">${item.armorStats?.evasion || ''}</td>`;
+            if (armorStats.energyShield) table += `<td class="numeric">${item.armorStats?.energyShield || ''}</td>`;
+            if (armorStats.ward) table += `<td class="numeric">${item.armorStats?.ward || ''}</td>`;
+        }
         
         // Add damage values for each type
         damageTypes.forEach(type => {
-            if (usedColumns[type]) {
+            if (weaponStats.damage[type]) {
                 const dmg = item.weaponStats?.damage?.[type];
-                table += `<td class="numeric">${dmg ? `${dmg.min}-${dmg.max}` : ''}</td>`;
+                table += `<td class="numeric range-col">${dmg ? `${dmg.min}-${dmg.max}` : ''}</td>`;
             }
         });
         
         // Add other weapon stats if we have any damage types
         if (hasWeaponStats) {
-            table += `<td class="numeric">${item.weaponStats?.attacksPerSecond?.toFixed(2) || ''}</td>`;
-            table += `<td class="numeric">${item.weaponStats?.criticalStrikeChance?.toFixed(2) || ''}</td>`;
-            table += `<td class="numeric">${item.weaponStats?.range || ''}</td>`;
+            if (weaponStats.attacksPerSecond) table += `<td class="numeric">${item.weaponStats?.attacksPerSecond?.toFixed(2) || ''}</td>`;
+            if (weaponStats.criticalStrikeChance) table += `<td class="numeric">${item.weaponStats?.criticalStrikeChance?.toFixed(2) || ''}</td>`;
+            if (weaponStats.range) table += `<td class="numeric">${item.weaponStats?.range || ''}</td>`;
         }
         
         table += '</tr>';
@@ -698,6 +766,8 @@ function analyzeColumns(results) {
         implicit: false,
         level: false,
         strength: false,
+        dexterity: false,
+        intelligence: false,
         physical: false,
         fire: false,
         cold: false,
@@ -706,20 +776,20 @@ function analyzeColumns(results) {
     };
 
     results.forEach(item => {
+        // Check requirements
+        if (item.requirements?.level) usedColumns.level = true;
+        if (item.requirements?.strength) usedColumns.strength = true;
+        if (item.requirements?.dexterity) usedColumns.dexterity = true;
+        if (item.requirements?.intelligence) usedColumns.intelligence = true;
+
         // Check implicit
         if (item.implicit) usedColumns.implicit = true;
 
-        // Check requirements
-        if (item.requirements) {
-            if (item.requirements.level > 0) usedColumns.level = true;
-            if (item.requirements.strength > 0) usedColumns.strength = true;
-        }
-
         // Check weapon damage types
         if (item.weaponStats?.damage) {
-            for (const type in item.weaponStats.damage) {
+            Object.keys(item.weaponStats.damage).forEach(type => {
                 usedColumns[type] = true;
-            }
+            });
         }
     });
 

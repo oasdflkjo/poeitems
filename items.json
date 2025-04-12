@@ -417,7 +417,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -454,7 +454,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -491,7 +491,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -528,7 +528,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -565,7 +565,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -602,7 +602,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 11
         },
         "armorStats": {
@@ -639,7 +639,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -676,7 +676,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -712,7 +712,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -748,7 +748,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -784,7 +784,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -820,7 +820,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -856,7 +856,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -893,7 +893,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -930,7 +930,7 @@
                 }
             },
             "attacksPerSecond": 1.25,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -967,7 +967,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1004,7 +1004,7 @@
                 }
             },
             "attacksPerSecond": 1.15,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1041,7 +1041,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1078,7 +1078,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1115,7 +1115,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 13
         },
         "armorStats": {
@@ -1152,7 +1152,7 @@
                 }
             },
             "attacksPerSecond": 1.15,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1188,7 +1188,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1224,7 +1224,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1260,7 +1260,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1296,7 +1296,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -1332,7 +1332,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -8467,7 +8467,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8505,7 +8505,7 @@
                 }
             },
             "attacksPerSecond": 1.25,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8543,7 +8543,7 @@
                 }
             },
             "attacksPerSecond": 1.15,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8581,7 +8581,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8619,7 +8619,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8657,7 +8657,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8695,7 +8695,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8733,7 +8733,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8770,7 +8770,7 @@
                 }
             },
             "attacksPerSecond": 1.15,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8807,7 +8807,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8844,7 +8844,7 @@
                 }
             },
             "attacksPerSecond": 1.15,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 120
         },
         "armorStats": {
@@ -8881,7 +8881,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8918,7 +8918,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8955,7 +8955,7 @@
                 }
             },
             "attacksPerSecond": 1.25,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -8992,7 +8992,7 @@
                 }
             },
             "attacksPerSecond": 1.15,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9029,7 +9029,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9066,7 +9066,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9103,7 +9103,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9140,7 +9140,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9177,7 +9177,7 @@
                 }
             },
             "attacksPerSecond": 1.25,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9214,7 +9214,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9251,7 +9251,7 @@
                 }
             },
             "attacksPerSecond": 1.15,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9288,7 +9288,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9325,7 +9325,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9362,7 +9362,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9399,7 +9399,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9436,7 +9436,7 @@
                 }
             },
             "attacksPerSecond": 1.7,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9473,7 +9473,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9510,7 +9510,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9547,7 +9547,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9584,7 +9584,7 @@
                 }
             },
             "attacksPerSecond": 1.7,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9621,7 +9621,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9658,7 +9658,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9694,7 +9694,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9730,7 +9730,7 @@
                 }
             },
             "attacksPerSecond": 1.7,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9766,7 +9766,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9802,7 +9802,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9838,7 +9838,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -9876,7 +9876,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9914,7 +9914,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9952,7 +9952,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -9990,7 +9990,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10028,7 +10028,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10066,7 +10066,7 @@
                 }
             },
             "attacksPerSecond": 1.7,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10104,7 +10104,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10142,7 +10142,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10179,7 +10179,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 700,
+            "criticalStrikeChance": 7,
             "range": 120
         },
         "armorStats": {
@@ -10216,7 +10216,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10253,7 +10253,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10290,7 +10290,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 700,
+            "criticalStrikeChance": 7,
             "range": 120
         },
         "armorStats": {
@@ -10327,7 +10327,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10364,7 +10364,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10401,7 +10401,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10438,7 +10438,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10475,7 +10475,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10512,7 +10512,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10549,7 +10549,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10586,7 +10586,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10623,7 +10623,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10660,7 +10660,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10697,7 +10697,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10734,7 +10734,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10771,7 +10771,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 120
         },
         "armorStats": {
@@ -10808,7 +10808,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 600,
+            "criticalStrikeChance": 6,
             "range": 10
         },
         "armorStats": {
@@ -10845,7 +10845,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -10882,7 +10882,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -10919,7 +10919,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -10956,7 +10956,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 1350,
+            "criticalStrikeChance": 13.5,
             "range": 10
         },
         "armorStats": {
@@ -10993,7 +10993,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11030,7 +11030,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1350,
+            "criticalStrikeChance": 13.5,
             "range": 10
         },
         "armorStats": {
@@ -11067,7 +11067,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11104,7 +11104,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11140,7 +11140,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11176,7 +11176,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11212,7 +11212,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11248,7 +11248,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11284,7 +11284,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 1500,
+            "criticalStrikeChance": 15,
             "range": 10
         },
         "armorStats": {
@@ -11319,7 +11319,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -11356,7 +11356,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11393,7 +11393,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11430,7 +11430,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11467,7 +11467,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11504,7 +11504,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11541,7 +11541,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 800,
+            "criticalStrikeChance": 8,
             "range": 11
         },
         "armorStats": {
@@ -11578,7 +11578,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11615,7 +11615,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11651,7 +11651,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11687,7 +11687,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11723,7 +11723,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1250,
+            "criticalStrikeChance": 12.5,
             "range": 11
         },
         "armorStats": {
@@ -11759,7 +11759,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -11795,7 +11795,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 11
         },
         "armorStats": {
@@ -19370,7 +19370,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19411,7 +19411,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19448,7 +19448,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19485,7 +19485,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19522,7 +19522,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 700,
+            "criticalStrikeChance": 7,
             "range": 11
         },
         "armorStats": {
@@ -19559,7 +19559,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19596,7 +19596,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19633,7 +19633,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19669,7 +19669,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 11
         },
         "armorStats": {
@@ -19705,7 +19705,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19741,7 +19741,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19777,7 +19777,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19813,7 +19813,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19853,7 +19853,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19889,7 +19889,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19925,7 +19925,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 700,
+            "criticalStrikeChance": 7,
             "range": 11
         },
         "armorStats": {
@@ -19961,7 +19961,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -19997,7 +19997,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -20033,7 +20033,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -20069,7 +20069,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -20105,7 +20105,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -20145,7 +20145,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -20181,7 +20181,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 700,
+            "criticalStrikeChance": 7,
             "range": 11
         },
         "armorStats": {
@@ -20217,7 +20217,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -20253,7 +20253,7 @@
                 }
             },
             "attacksPerSecond": 1.45,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -20290,7 +20290,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20327,7 +20327,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20364,7 +20364,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20401,7 +20401,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20438,7 +20438,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20475,7 +20475,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20512,7 +20512,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20549,7 +20549,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20585,7 +20585,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 13
         },
         "armorStats": {
@@ -20621,7 +20621,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20657,7 +20657,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20693,7 +20693,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20729,7 +20729,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20765,7 +20765,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20801,7 +20801,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20837,7 +20837,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20873,7 +20873,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20909,7 +20909,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20945,7 +20945,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -20981,7 +20981,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -21017,7 +21017,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -21053,7 +21053,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -21089,7 +21089,7 @@
                 }
             },
             "attacksPerSecond": 1.05,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -21125,7 +21125,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -21161,7 +21161,7 @@
                 }
             },
             "attacksPerSecond": 1.1,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -26454,7 +26454,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26491,7 +26491,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26528,7 +26528,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26565,7 +26565,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26602,7 +26602,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26639,7 +26639,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26676,7 +26676,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 15
         },
         "armorStats": {
@@ -26713,7 +26713,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26749,7 +26749,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26785,7 +26785,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 15
         },
         "armorStats": {
@@ -26821,7 +26821,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26857,7 +26857,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26893,7 +26893,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26929,7 +26929,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -26965,7 +26965,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27001,7 +27001,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27037,7 +27037,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27073,7 +27073,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 15
         },
         "armorStats": {
@@ -27109,7 +27109,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27145,7 +27145,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27181,7 +27181,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27217,7 +27217,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27253,7 +27253,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27289,7 +27289,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 15
         },
         "armorStats": {
@@ -27325,7 +27325,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 650,
+            "criticalStrikeChance": 6.5,
             "range": 15
         },
         "armorStats": {
@@ -27771,7 +27771,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -27808,7 +27808,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -27845,7 +27845,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1150,
+            "criticalStrikeChance": 11.5,
             "range": 13
         },
         "armorStats": {
@@ -27882,7 +27882,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -27919,7 +27919,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -27956,7 +27956,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -27993,7 +27993,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28030,7 +28030,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28066,7 +28066,7 @@
                 }
             },
             "attacksPerSecond": 1.35,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28138,7 +28138,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28174,7 +28174,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28210,7 +28210,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28246,7 +28246,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28282,7 +28282,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1150,
+            "criticalStrikeChance": 11.5,
             "range": 13
         },
         "armorStats": {
@@ -28318,7 +28318,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28354,7 +28354,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28390,7 +28390,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28426,7 +28426,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28462,7 +28462,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1150,
+            "criticalStrikeChance": 11.5,
             "range": 13
         },
         "armorStats": {
@@ -28498,7 +28498,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28534,7 +28534,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28570,7 +28570,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28606,7 +28606,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28642,7 +28642,7 @@
                 }
             },
             "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 1000,
+            "criticalStrikeChance": 10,
             "range": 13
         },
         "armorStats": {
@@ -28679,7 +28679,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -28716,7 +28716,7 @@
                 }
             },
             "attacksPerSecond": 1.7,
-            "criticalStrikeChance": 700,
+            "criticalStrikeChance": 7,
             "range": 11
         },
         "armorStats": {
@@ -28753,7 +28753,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -28790,7 +28790,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -28827,7 +28827,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -28864,7 +28864,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -28901,7 +28901,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -28938,7 +28938,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -28975,7 +28975,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -29012,7 +29012,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -29048,7 +29048,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -29084,7 +29084,7 @@
                 }
             },
             "attacksPerSecond": 1.65,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -29120,7 +29120,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -29156,7 +29156,7 @@
                 }
             },
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -29192,7 +29192,7 @@
                 }
             },
             "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 11
         },
         "armorStats": {
@@ -29229,7 +29229,7 @@
                 }
             },
             "attacksPerSecond": 1.2,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29266,7 +29266,7 @@
                 }
             },
             "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 700,
+            "criticalStrikeChance": 7,
             "range": 13
         },
         "armorStats": {
@@ -29303,7 +29303,7 @@
                 }
             },
             "attacksPerSecond": 1.3,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29340,7 +29340,7 @@
                 }
             },
             "attacksPerSecond": 1.35,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29377,7 +29377,7 @@
                 }
             },
             "attacksPerSecond": 1.3,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29414,7 +29414,7 @@
                 }
             },
             "attacksPerSecond": 1.25,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29451,7 +29451,7 @@
                 }
             },
             "attacksPerSecond": 1.3,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29488,7 +29488,7 @@
                 }
             },
             "attacksPerSecond": 1.35,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29525,7 +29525,7 @@
                 }
             },
             "attacksPerSecond": 1.3,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29562,7 +29562,7 @@
                 }
             },
             "attacksPerSecond": 1.25,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29598,7 +29598,7 @@
                 }
             },
             "attacksPerSecond": 1.3,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29634,7 +29634,7 @@
                 }
             },
             "attacksPerSecond": 1.25,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29670,7 +29670,7 @@
                 }
             },
             "attacksPerSecond": 1.3,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29706,7 +29706,7 @@
                 }
             },
             "attacksPerSecond": 1.35,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {
@@ -29742,7 +29742,7 @@
                 }
             },
             "attacksPerSecond": 1.3,
-            "criticalStrikeChance": 500,
+            "criticalStrikeChance": 5,
             "range": 13
         },
         "armorStats": {

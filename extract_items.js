@@ -141,7 +141,7 @@ function extractItems() {
                     const rangeMatch = blockContent.match(/Range = ([0-9.]+)/);
 
                     weaponStats.attacksPerSecond = attackSpeedMatch ? parseFloat(attackSpeedMatch[1]) : null;
-                    weaponStats.criticalStrikeChance = critChanceMatch ? parseFloat(critChanceMatch[1]) * 100 : null;
+                    weaponStats.criticalStrikeChance = critChanceMatch ? parseFloat(critChanceMatch[1]) : null;
                     weaponStats.range = rangeMatch ? parseInt(rangeMatch[1]) : null;
                 }
 

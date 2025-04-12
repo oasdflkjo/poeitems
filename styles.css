@@ -178,35 +178,55 @@ body {
 
 #results th,
 #results td {
-    padding: 8px 12px;
+    padding: 4px 6px;
     border: 1px solid var(--border-color);
     color: var(--text-color);
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 /* Column widths */
 #results th:first-child,
 #results td:first-child {
-    width: 200px;
-    min-width: 200px;
-    max-width: 200px;
+    width: 180px;
+    min-width: 180px;
+    max-width: 180px;
 }
 
 #results th:nth-child(2),
 #results td:nth-child(2) {
     width: auto;
-    min-width: 200px;
+    min-width: 150px;
     white-space: normal;
+}
+
+/* Numeric columns */
+#results th.numeric,
+#results td.numeric {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    text-align: right;
+}
+
+/* Range columns */
+#results th.range-col,
+#results td.range-col {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    text-align: right;
+}
+
+/* Make all cells except implicit use ellipsis */
+#results td:not(:nth-child(2)) {
+    white-space: nowrap;
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
-#results th:nth-child(n+3),
-#results td:nth-child(n+3) {
-    width: 100px;
-    min-width: 100px;
-    max-width: 100px;
-    text-align: right;
+/* Slightly smaller font for headers */
+#results th {
+    font-size: 0.95em;
+    font-weight: 600;
 }
 
 /* Header styling */
