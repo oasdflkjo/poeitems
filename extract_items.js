@@ -86,6 +86,20 @@ function extractItems() {
                     }
                 }
 
+                // Extract tags
+                const tags = [];
+                const tagsMatch = block.match(/tags = {([^}]+)}/);
+                if (tagsMatch) {
+                    const tagsBlock = tagsMatch[1];
+                    const tagMatches = tagsBlock.match(/(\w+)\s*=\s*true/g);
+                    if (tagMatches) {
+                        tagMatches.forEach(match => {
+                            const tag = match.split('=')[0].trim();
+                            tags.push(tag);
+                        });
+                    }
+                }
+
                 // Extract spirit for sceptres
                 let spirit = null;
                 if (itemClass === "Sceptre") {
@@ -95,22 +109,7 @@ function extractItems() {
                     }
                 }
 
-                // Extract tags
-                const tags = [];
-                const tagMatch = block.match(/tags = {([^}]+)}/);
-                if (tagMatch) {
-                    const tagContent = tagMatch[1];
-                    const tagRegex = /"([^"]+)"/g;
-                    let match;
-                    while ((match = tagRegex.exec(tagContent)) !== null) {
-                        // Replace 'buckler' tag with 'dex_armour' for shields
-                        const tag = match[1] === 'buckler' ? 'dex_armour' : match[1];
-                        tags.push(tag);
-                    }
-                }
-
-                // Extract weapon stats from the weapon block
-                const weaponBlock = block.match(/weapon = {([^}]+)}/);
+                // Extract weapon stats
                 const weaponStats = {
                     physicalDamage: null,
                     attacksPerSecond: null,
@@ -118,39 +117,35 @@ function extractItems() {
                     range: null
                 };
 
+                const weaponBlock = block.match(/weapon = {([^}]+)}/);
                 if (weaponBlock) {
                     const blockContent = weaponBlock[1];
-                    const physMin = parseFloat(blockContent.match(/PhysicalMin = ([0-9.]+)/)?.[1] || 0);
-                    const physMax = parseFloat(blockContent.match(/PhysicalMax = ([0-9.]+)/)?.[1] || 0);
-                    
-                    if (physMin > 0 || physMax > 0) {
-                        weaponStats.physicalDamage = [physMin, physMax];
-                    }
+                    const physicalMinMatch = blockContent.match(/PhysicalMin = ([0-9.]+)/);
+                    const physicalMaxMatch = blockContent.match(/PhysicalMax = ([0-9.]+)/);
+                    const attackSpeedMatch = blockContent.match(/AttackRateBase = ([0-9.]+)/);
+                    const critChanceMatch = blockContent.match(/CritChanceBase = ([0-9.]+)/);
+                    const rangeMatch = blockContent.match(/Range = ([0-9.]+)/);
 
-                    const aps = parseFloat(blockContent.match(/AttackRateBase = ([0-9.]+)/)?.[1] || 0);
-                    if (aps > 0) {
-                        weaponStats.attacksPerSecond = aps;
+                    if (physicalMinMatch && physicalMaxMatch) {
+                        weaponStats.physicalDamage = [
+                            parseInt(physicalMinMatch[1]),
+                            parseInt(physicalMaxMatch[1])
+                        ];
                     }
-
-                    const crit = parseFloat(blockContent.match(/CritChanceBase = ([0-9.]+)/)?.[1] || 0);
-                    if (crit > 0) {
-                        weaponStats.criticalStrikeChance = crit;
-                    }
-
-                    const range = parseInt(blockContent.match(/Range = ([0-9]+)/)?.[1] || 0);
-                    if (range > 0) {
-                        weaponStats.range = range;
-                    }
+                    weaponStats.attacksPerSecond = attackSpeedMatch ? parseFloat(attackSpeedMatch[1]) : null;
+                    weaponStats.criticalStrikeChance = critChanceMatch ? parseFloat(critChanceMatch[1]) : null;
+                    weaponStats.range = rangeMatch ? parseInt(rangeMatch[1]) : null;
                 }
 
-                // Extract armor stats from the armour block
-                const armorBlock = block.match(/armour = {([^}]+)}/);
+                // Extract armor stats
                 const armorStats = {
                     armor: 0,
                     evasion: 0,
                     energyShield: 0,
                     ward: 0
                 };
+
+                const armorBlock = block.match(/armour = {([^}]+)}/);
 
                 if (armorBlock) {
                     const blockContent = armorBlock[1];

@@ -411,11 +411,17 @@ function updateSubclassButtons(itemClass) {
 
         // Get available subtypes for this armor class
         const availableSubtypes = new Set();
+        const isShield = itemClass === 'Shield';
+        
         (itemsByClass[itemClass] || []).forEach(item => {
-            // Check tags for armor and shield subtypes
+            // For shields, only use shield tags, for other armor use armor tags
             item.tags.forEach(tag => {
                 if (armorTagToSubclass[tag]) {
-                    availableSubtypes.add(tag);
+                    // Only add shield tags for shields, and armor tags for other armor types
+                    if ((isShield && tag.includes('_shield')) || 
+                        (!isShield && tag.includes('_armour'))) {
+                        availableSubtypes.add(tag);
+                    }
                 }
             });
         });

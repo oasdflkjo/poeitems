@@ -27662,7 +27662,7 @@
                 84
             ],
             "attacksPerSecond": 1.5,
-            "criticalStrikeChance": null,
+            "criticalStrikeChance": 0,
             "range": 13
         },
         "armorStats": {
@@ -28231,7 +28231,10 @@
             "intelligence": 0
         },
         "weaponStats": {
-            "physicalDamage": null,
+            "physicalDamage": [
+                0,
+                0
+            ],
             "attacksPerSecond": 1.7,
             "criticalStrikeChance": 7,
             "range": 11
@@ -28748,7 +28751,10 @@
             "intelligence": 0
         },
         "weaponStats": {
-            "physicalDamage": null,
+            "physicalDamage": [
+                0,
+                0
+            ],
             "attacksPerSecond": 1.6,
             "criticalStrikeChance": 7,
             "range": 13
