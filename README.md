@@ -1,12 +1,11 @@
 # PoE2 Item Database MVP
 
-_Warning: this is 100% vibes and done in the background by claude 3.7 agent. Don't take it too seriously.
+_Warning: This is 100% vibes and untested. Done in the background by claude 3.7 agent. Don't take it too seriously.
 Lots of things are organized in absurd ways but for this solution it is enough._
 
 _I just needed a simple way to search for items in PoE2 and this is the best solution I could come up with._
 
 _Use dark reader or make a PR introducing dark mode :)_
-
 
 A web-based item database for Path of Exile 2, featuring:
 - Searchable item database
