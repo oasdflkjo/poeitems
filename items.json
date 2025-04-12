@@ -29998,33 +29998,5 @@
             "ward": 0
         },
         "spirit": null
-    },
-    {
-        "name": "Random Wand",
-        "class": "Wand",
-        "implicit": null,
-        "tags": [
-            "wand",
-            "default"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        },
-        "spirit": null
     }
 ]

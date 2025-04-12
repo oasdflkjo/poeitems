@@ -64,8 +64,9 @@ function extractItems() {
                 if (!nameMatch) return;
                 const name = nameMatch[1];
 
-                // Skip ONLY the dummy Ring base item
-                if (name === "Ring" && block.includes('type = "Ring"') && block.includes('tags = { ring = true, default = true, }')) {
+                // Skip dummy base items
+                if ((name === "Ring" && block.includes('type = "Ring"') && block.includes('tags = { ring = true, default = true, }')) ||
+                    (name === "Random Wand" && block.includes('type = "Wand"'))) {
                     return;
                 }
 
