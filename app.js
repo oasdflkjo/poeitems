@@ -13,12 +13,78 @@ let currentFocus = -1;
 let selectedClass = null;
 let selectedSubclass = null;
 
+// Add this after the items data is loaded
+let maxColumnWidths = {
+    name: 0,
+    class: 0
+};
+
+function calculateMaxColumnWidths(items) {
+    // Reset max widths
+    maxColumnWidths = {
+        name: 0,
+        class: 0
+    };
+    
+    // Calculate max widths from all items
+    items.forEach(item => {
+        maxColumnWidths.name = Math.max(maxColumnWidths.name, item.name.length);
+        maxColumnWidths.class = Math.max(maxColumnWidths.class, item.class.length);
+    });
+    
+    // Add some padding to the max widths
+    maxColumnWidths.name += 2;
+    maxColumnWidths.class += 2;
+    
+    // Apply the max widths to the CSS
+    applyColumnWidths();
+}
+
+function applyColumnWidths() {
+    // Create or update the style element
+    let styleEl = document.getElementById('column-widths-style');
+    if (!styleEl) {
+        styleEl = document.createElement('style');
+        styleEl.id = 'column-widths-style';
+        document.head.appendChild(styleEl);
+    }
+    
+    // Calculate widths in characters (ch units)
+    const nameWidth = maxColumnWidths.name;
+    const classWidth = maxColumnWidths.class;
+    
+    // Update the styles
+    styleEl.textContent = `
+        .table-container th:nth-child(1),
+        .table-container td:nth-child(1) {
+            min-width: ${nameWidth}ch;
+            max-width: ${nameWidth}ch;
+            width: ${nameWidth}ch;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .table-container th:nth-child(2),
+        .table-container td:nth-child(2) {
+            min-width: ${classWidth}ch;
+            max-width: ${classWidth}ch;
+            width: ${classWidth}ch;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    `;
+}
+
 // Initialize data and search
 async function initializeSearch() {
     try {
         // Load items from PathOfBuilding data
         const response = await fetch('items.json');
         const data = await response.json();
+        
+        // Calculate max column widths first
+        calculateMaxColumnWidths(data);
         
         // Group items by class and prepare search data
         itemsByClass = {};
@@ -279,110 +345,264 @@ function removeActive(items) {
 }
 
 function displayResults(results) {
-    const tableContainer = document.querySelector('.table-container');
-    const tbody = document.querySelector('#results tbody');
-    tbody.innerHTML = '';
-    
-    if (!results || results.length === 0) {
-        tableContainer.style.display = 'none';
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';
+
+    if (results.length === 0) {
+        resultsDiv.innerHTML = 'No items found';
         return;
     }
+
+    const table = document.createElement('table');
+    const thead = document.createElement('thead');
+    const tbody = document.createElement('tbody');
     
-    // Get the first item to determine available fields
-    const firstItem = results[0];
+    // Show table container
+    document.querySelector('.table-container').style.display = 'block';
     
-    // Update table headers based on available fields
-    updateTableHeaders(firstItem);
+    // Analyze which fields are actually used in the results
+    const usedFields = analyzeUsedFields(results);
     
+    // Create header row based on used fields
+    updateTableHeaders(usedFields, thead);
+    
+    // Create data rows
     results.forEach(item => {
         const row = document.createElement('tr');
         
-        // Helper function to format numeric values
-        const formatNumber = (num) => {
-            if (Array.isArray(num)) {
-                return num.map(n => n.toFixed(2)).join('-');
+        // Basic info (always show name and class)
+        const cells = [
+            createCell(item.name),
+            createCell(item.class)
+        ];
+        
+        // Requirements (only if they exist)
+        if (usedFields.requirements.level) cells.push(createCell(item.requirements.level || 0, 'numeric level-col'));
+        if (usedFields.requirements.strength) cells.push(createCell(item.requirements.strength || 0, 'numeric'));
+        if (usedFields.requirements.dexterity) cells.push(createCell(item.requirements.dexterity || 0, 'numeric'));
+        if (usedFields.requirements.intelligence) cells.push(createCell(item.requirements.intelligence || 0, 'numeric'));
+        
+        // Add stats based on item type
+        if (item.weaponStats && usedFields.weaponStats) {
+            const ws = item.weaponStats;
+            if (usedFields.weaponStats.physicalDamage) {
+                cells.push(createCell(ws.physicalDamage ? `${ws.physicalDamage[0]}-${ws.physicalDamage[1]}` : '0-0', 'range-col'));
             }
-            return num === 0 ? '0' : num?.toFixed(2) || '';
-        };
-        
-        // Add base columns
-        let cells = `
-            <td>${item.name}</td>
-            <td>${item.class}</td>
-            <td>${item.implicit || ''}</td>
-        `;
-        
-        // Add weapon stats if present
-        if (item.weaponStats) {
-            cells += `
-                <td>${formatNumber(item.weaponStats.physicalDamage)}</td>
-                <td>${formatNumber(item.weaponStats.criticalStrikeChance)}</td>
-                <td>${formatNumber(item.weaponStats.attacksPerSecond)}</td>
-                <td>${formatNumber(item.weaponStats.range)}</td>
-            `;
+            if (usedFields.weaponStats.attacksPerSecond) {
+                cells.push(createCell((ws.attacksPerSecond || 0).toFixed(2), 'numeric'));
+            }
+            if (usedFields.weaponStats.criticalStrikeChance) {
+                cells.push(createCell((ws.criticalStrikeChance || 0) + '%', 'numeric'));
+            }
+            if (usedFields.weaponStats.range) {
+                cells.push(createCell(ws.range || 0, 'numeric'));
+            }
+        } else if (item.armorStats && usedFields.armorStats) {
+            const as = item.armorStats;
+            if (usedFields.armorStats.armor && as.armor !== undefined) cells.push(createCell(as.armor, 'numeric'));
+            if (usedFields.armorStats.evasion && as.evasion !== undefined) cells.push(createCell(as.evasion, 'numeric'));
+            if (usedFields.armorStats.energyShield && as.energyShield !== undefined) cells.push(createCell(as.energyShield, 'numeric'));
+            if (usedFields.armorStats.ward && as.ward !== undefined) cells.push(createCell(as.ward, 'numeric'));
         }
         
-        // Add armor stats if present
-        if (item.armorStats) {
-            cells += `
-                <td>${formatNumber(item.armorStats.armor)}</td>
-                <td>${formatNumber(item.armorStats.evasion)}</td>
-                <td>${formatNumber(item.armorStats.energyShield)}</td>
-                <td>${formatNumber(item.armorStats.ward)}</td>
-            `;
-        }
-        
-        // Add requirements
-        const reqs = [];
-        if (item.requirements) {
-            if (item.requirements.level) reqs.push(`Level ${item.requirements.level}`);
-            if (item.requirements.strength) reqs.push(`Str ${item.requirements.strength}`);
-            if (item.requirements.dexterity) reqs.push(`Dex ${item.requirements.dexterity}`);
-            if (item.requirements.intelligence) reqs.push(`Int ${item.requirements.intelligence}`);
-        }
-        cells += `<td>${reqs.join(', ')}</td>`;
-        
-        row.innerHTML = cells;
+        cells.forEach(cell => row.appendChild(cell));
         tbody.appendChild(row);
     });
     
-    tableContainer.style.display = 'block';
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    resultsDiv.appendChild(table);
 }
 
-function updateTableHeaders(item) {
-    const headerRow = document.querySelector('#results thead tr');
+function analyzeUsedFields(results) {
+    const fields = {
+        requirements: {
+            level: false,
+            strength: false,
+            dexterity: false,
+            intelligence: false
+        },
+        weaponStats: null,
+        armorStats: null
+    };
     
-    // Start with base columns
-    let headers = `
-        <th>Name</th>
-        <th>Class</th>
-        <th>Implicit</th>
-    `;
+    // Check each item for used fields
+    results.forEach(item => {
+        // Check requirements
+        if (item.requirements) {
+            if (item.requirements.level > 0) fields.requirements.level = true;
+            if (item.requirements.strength > 0) fields.requirements.strength = true;
+            if (item.requirements.dexterity > 0) fields.requirements.dexterity = true;
+            if (item.requirements.intelligence > 0) fields.requirements.intelligence = true;
+        }
+        
+        // Initialize weapon stats tracking if we find any
+        if (item.weaponStats) {
+            if (!fields.weaponStats) {
+                fields.weaponStats = {
+                    physicalDamage: false,
+                    attacksPerSecond: false,
+                    criticalStrikeChance: false,
+                    range: false
+                };
+            }
+            const ws = item.weaponStats;
+            if (ws.physicalDamage && (ws.physicalDamage[0] > 0 || ws.physicalDamage[1] > 0)) {
+                fields.weaponStats.physicalDamage = true;
+            }
+            if (ws.attacksPerSecond > 0) fields.weaponStats.attacksPerSecond = true;
+            if (ws.criticalStrikeChance > 0) fields.weaponStats.criticalStrikeChance = true;
+            if (ws.range > 0) fields.weaponStats.range = true;
+        }
+        
+        // Initialize armor stats tracking if we find any
+        if (item.armorStats) {
+            if (!fields.armorStats) {
+                fields.armorStats = {
+                    armor: false,
+                    evasion: false,
+                    energyShield: false,
+                    ward: false
+                };
+            }
+            const as = item.armorStats;
+            if (as.armor > 0) fields.armorStats.armor = true;
+            if (as.evasion > 0) fields.armorStats.evasion = true;
+            if (as.energyShield > 0) fields.armorStats.energyShield = true;
+            if (as.ward > 0) fields.armorStats.ward = true;
+        }
+    });
     
-    // Add weapon stat headers if the item has weapon stats
-    if (item.weaponStats) {
-        headers += `
-            <th>Physical Damage</th>
-            <th>Critical Strike Chance</th>
-            <th>Attacks per Second</th>
-            <th>Range</th>
-        `;
+    return fields;
+}
+
+function updateTableHeaders(usedFields, thead) {
+    const headerRow = document.createElement('tr');
+    
+    // Define base headers that are always shown
+    const headers = [
+        { text: 'Name', sortable: true, type: 'string' },
+        { text: 'Class', sortable: true, type: 'string' }
+    ];
+    
+    // Add requirement headers if they're used
+    if (usedFields.requirements.level) {
+        headers.push({ text: 'Level Req', sortable: true, type: 'numeric', className: 'level-col' });
+    }
+    if (usedFields.requirements.strength) {
+        headers.push({ text: 'Str Req', sortable: true, type: 'numeric' });
+    }
+    if (usedFields.requirements.dexterity) {
+        headers.push({ text: 'Dex Req', sortable: true, type: 'numeric' });
+    }
+    if (usedFields.requirements.intelligence) {
+        headers.push({ text: 'Int Req', sortable: true, type: 'numeric' });
     }
     
-    // Add armor stat headers if the item has armor stats
-    if (item.armorStats) {
-        headers += `
-            <th>Armor</th>
-            <th>Evasion</th>
-            <th>Energy Shield</th>
-            <th>Ward</th>
-        `;
+    // Add weapon stats headers if they're used
+    if (usedFields.weaponStats) {
+        if (usedFields.weaponStats.physicalDamage) {
+            headers.push({ text: 'Physical Damage', sortable: true, type: 'range', className: 'range-col' });
+        }
+        if (usedFields.weaponStats.attacksPerSecond) {
+            headers.push({ text: 'Attacks/sec', sortable: true, type: 'numeric' });
+        }
+        if (usedFields.weaponStats.criticalStrikeChance) {
+            headers.push({ text: 'Crit Chance', sortable: true, type: 'numeric' });
+        }
+        if (usedFields.weaponStats.range) {
+            headers.push({ text: 'Range', sortable: true, type: 'numeric' });
+        }
     }
     
-    // Add requirements header
-    headers += '<th>Requirements</th>';
+    // Add armor stats headers if they're used
+    if (usedFields.armorStats) {
+        if (usedFields.armorStats.armor) {
+            headers.push({ text: 'Armor', sortable: true, type: 'numeric' });
+        }
+        if (usedFields.armorStats.evasion) {
+            headers.push({ text: 'Evasion', sortable: true, type: 'numeric' });
+        }
+        if (usedFields.armorStats.energyShield) {
+            headers.push({ text: 'Energy Shield', sortable: true, type: 'numeric' });
+        }
+        if (usedFields.armorStats.ward) {
+            headers.push({ text: 'Ward', sortable: true, type: 'numeric' });
+        }
+    }
     
-    headerRow.innerHTML = headers;
+    // Create header cells
+    headers.forEach(header => {
+        const th = document.createElement('th');
+        th.textContent = header.text;
+        
+        if (header.sortable) {
+            th.className = 'sortable';
+            if (header.className) th.className += ' ' + header.className;
+            th.addEventListener('click', () => sortTable(th, header.type));
+        }
+        
+        headerRow.appendChild(th);
+    });
+    
+    thead.innerHTML = '';
+    thead.appendChild(headerRow);
+}
+
+function sortTable(header, type) {
+    const table = header.closest('table');
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+    const columnIndex = Array.from(header.parentNode.children).indexOf(header);
+    const isAscending = !header.classList.contains('asc');
+    
+    // Remove sort indicators from all headers
+    header.parentNode.querySelectorAll('th').forEach(th => {
+        th.classList.remove('asc', 'desc');
+    });
+    
+    // Add sort indicator to current header
+    header.classList.add(isAscending ? 'asc' : 'desc');
+    
+    // Sort the rows
+    rows.sort((a, b) => {
+        const aCell = a.cells[columnIndex];
+        const bCell = b.cells[columnIndex];
+        
+        if (type === 'numeric') {
+            const aValue = parseFloat(aCell.textContent.replace(/[^0-9.-]/g, '')) || 0;
+            const bValue = parseFloat(bCell.textContent.replace(/[^0-9.-]/g, '')) || 0;
+            return isAscending ? aValue - bValue : bValue - aValue;
+        } else if (type === 'range') {
+            // For range values (e.g. "10-20"), sort by the average
+            const [aMin, aMax] = (aCell.textContent.split('-').map(Number) || [0, 0]);
+            const [bMin, bMax] = (bCell.textContent.split('-').map(Number) || [0, 0]);
+            const aAvg = (aMin + aMax) / 2;
+            const bAvg = (bMin + bMax) / 2;
+            return isAscending ? aAvg - bAvg : bAvg - aAvg;
+        } else {
+            // Default string comparison
+            const aValue = aCell.textContent.trim().toLowerCase();
+            const bValue = bCell.textContent.trim().toLowerCase();
+            return isAscending ? 
+                aValue.localeCompare(bValue) : 
+                bValue.localeCompare(aValue);
+        }
+    });
+    
+    // Reorder the rows in the table
+    rows.forEach(row => tbody.appendChild(row));
+}
+
+function createCell(content, className = '') {
+    const td = document.createElement('td');
+    td.textContent = content;
+    if (className) td.className = className;
+    
+    // Add title attribute for potential overflow
+    td.title = content;
+    
+    return td;
 }
 
 // Initialize when the page loads

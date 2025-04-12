@@ -101,29 +101,105 @@ body {
     margin: 20px auto;
     max-width: 1200px;
     overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     background: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: 1px solid #e2e8f0;
+    table-layout: fixed;
 }
 
 th, td {
-    padding: 12px;
+    padding: 12px 16px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #e2e8f0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Name and Class columns will be handled by dynamic JS */
+th:first-child, td:first-child,
+th:nth-child(2), td:nth-child(2) {
+    font-family: monospace; /* For consistent character width */
+}
+
+/* Make other columns more flexible */
+th:not(:first-child):not(:nth-child(2)),
+td:not(:first-child):not(:nth-child(2)) {
+    width: auto;
+    min-width: 80px; /* Minimum width for other columns */
+}
+
+/* Numeric columns */
+td.numeric, td.range-col {
+    text-align: right;
+    font-family: monospace;
+    font-size: 0.95em;
+    width: auto;
+    min-width: 100px;
+}
+
+/* Add tooltip on overflow */
+td {
+    position: relative;
+}
+
+td:hover::after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1000;
+    background: #2d3748;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    display: none;
+}
+
+td[title]:hover::after {
+    display: block;
 }
 
 th {
-    background: #f5f5f5;
+    background: #f8fafc;
     font-weight: 600;
-    color: #333;
+    color: #2d3748;
+    border-bottom: 2px solid #cbd5e0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Zebra striping for rows */
+tr:nth-child(even) {
+    background: #f8fafc;
 }
 
 tr:hover {
-    background: #f9f9f9;
+    background: #edf2f7;
+}
+
+/* Add vertical lines between columns */
+td:not(:last-child), th:not(:last-child) {
+    border-right: 1px solid #e2e8f0;
+}
+
+/* First and last columns */
+td:first-child, th:first-child {
+    padding-left: 20px;
+}
+
+td:last-child, th:last-child {
+    padding-right: 20px;
 }
 
 /* Autocomplete dropdown */
@@ -223,4 +299,32 @@ tr:hover {
     th, td {
         padding: 0.5rem;
     }
+}
+
+.sortable {
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px !important;
+}
+
+.sortable::after {
+    content: '↕';
+    position: absolute;
+    right: 8px;
+    color: #999;
+}
+
+.sortable.asc::after {
+    content: '↑';
+    color: #4a90e2;
+}
+
+.sortable.desc::after {
+    content: '↓';
+    color: #4a90e2;
+}
+
+.level-col {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
 } 

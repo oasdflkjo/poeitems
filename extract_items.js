@@ -143,10 +143,10 @@ files.forEach(file => {
             const reqBlock = block.match(/req = {([^}]+)}/s);
             if (reqBlock) {
                 item.requirements = {
-                    level: parseInt(reqBlock[1].match(/Level\s*=\s*([0-9]+)/)?.[1] || 0),
-                    strength: parseInt(reqBlock[1].match(/Str\s*=\s*([0-9]+)/)?.[1] || 0),
-                    dexterity: parseInt(reqBlock[1].match(/Dex\s*=\s*([0-9]+)/)?.[1] || 0),
-                    intelligence: parseInt(reqBlock[1].match(/Int\s*=\s*([0-9]+)/)?.[1] || 0)
+                    level: parseInt(reqBlock[1].match(/level\s*=\s*([0-9]+)/i)?.[1] || 0),
+                    strength: parseInt(reqBlock[1].match(/str\s*=\s*([0-9]+)/i)?.[1] || 0),
+                    dexterity: parseInt(reqBlock[1].match(/dex\s*=\s*([0-9]+)/i)?.[1] || 0),
+                    intelligence: parseInt(reqBlock[1].match(/int\s*=\s*([0-9]+)/i)?.[1] || 0)
                 };
             }
 
