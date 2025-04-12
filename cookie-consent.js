@@ -50,10 +50,18 @@ document.addEventListener('DOMContentLoaded', function() {
     acceptButton.onclick = function() {
         localStorage.setItem('analyticsConsent', 'true');
         banner.remove();
-        // Reload analytics after consent
+
+        // Load GA4 script
         const script = document.createElement('script');
-        script.src = 'analytics.js';
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-23J2GDK21Q';
         document.head.appendChild(script);
+
+        // Configure GA4
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-23J2GDK21Q');
     };
 
     // Add elements to banner
