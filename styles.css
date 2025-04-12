@@ -178,7 +178,7 @@ body {
 
 #results th,
 #results td {
-    padding: 4px 6px;
+    padding: 8px 12px;
     border: 1px solid var(--border-color);
     color: var(--text-color);
 }
@@ -264,25 +264,25 @@ body {
 /* Sort indicators */
 #results th.sortable {
     cursor: pointer;
-    padding-right: 24px;
     position: relative;
+    padding-right: 18px;
 }
 
 #results th.sortable::after {
     content: '⇅';
     position: absolute;
-    right: 8px;
+    right: 6px;
     color: var(--text-muted);
 }
 
 #results th.sortable.asc::after {
     content: '↑';
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 #results th.sortable.desc::after {
     content: '↓';
-    color: var(--accent-color);
+    color: var(--text-color);
 }
 
 /* Autocomplete dropdown */
@@ -364,4 +364,19 @@ body {
 .aa-Item:hover,
 .aa-Item.selected {
     background: #f0f0f0;
+}
+
+/* Ensure table maintains width */
+.table-container table {
+    min-width: 600px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* Hide overflow with ellipsis */
+.table-container th,
+.table-container td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 } 

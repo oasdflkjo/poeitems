@@ -704,7 +704,8 @@ function displayResults(results) {
     // Add damage type headers
     damageTypes.forEach(type => {
         if (weaponStats.damage[type]) {
-            table += `<th class="sortable numeric range-col" onclick="sortTable(this, 'range')">${type.charAt(0).toUpperCase() + type.slice(1)}</th>`;
+            const typeName = type.charAt(0).toUpperCase() + type.slice(1);
+            table += `<th class="sortable numeric range-col" onclick="sortTable(this, 'range')">${typeName}</th>`;
         }
     });
     
@@ -802,21 +803,8 @@ function sortTable(header, type) {
     const rows = Array.from(tbody.querySelectorAll('tr'));
     const columnIndex = Array.from(header.parentNode.children).indexOf(header);
     
-    // Determine sort direction
-    let isAscending;
-    if (header.textContent === 'Level Req') {
-        // For level, default to ascending if not explicitly descending
-        isAscending = !header.classList.contains('desc');
-    } else {
-        // For other columns, toggle as usual
-        isAscending = !header.classList.contains('asc');
-    }
-    
-    // Store the sort state
-    lastSort = {
-        column: header.textContent,
-        ascending: isAscending
-    };
+    // Toggle sort direction
+    const isAscending = !header.classList.contains('asc');
     
     // Remove sort indicators from all headers
     header.parentNode.querySelectorAll('th').forEach(th => {
@@ -837,10 +825,13 @@ function sortTable(header, type) {
             return isAscending ? aValue - bValue : bValue - aValue;
         } else if (type === 'range') {
             // For range values (e.g. "10-20"), sort by the average
-            const [aMin, aMax] = (aCell.textContent.split('-').map(Number) || [0, 0]);
-            const [bMin, bMax] = (bCell.textContent.split('-').map(Number) || [0, 0]);
-            const aAvg = (aMin + aMax) / 2;
-            const bAvg = (bMin + bMax) / 2;
+            const aRange = aCell.textContent.split('-').map(n => parseFloat(n) || 0);
+            const bRange = bCell.textContent.split('-').map(n => parseFloat(n) || 0);
+            
+            // Calculate averages, handle empty cells
+            const aAvg = aRange.length === 2 ? (aRange[0] + aRange[1]) / 2 : 0;
+            const bAvg = bRange.length === 2 ? (bRange[0] + bRange[1]) / 2 : 0;
+            
             return isAscending ? aAvg - bAvg : bAvg - aAvg;
         } else {
             // Default string comparison
