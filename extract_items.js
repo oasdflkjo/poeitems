@@ -4,228 +4,165 @@ const path = require('path');
 // Path to PoE2 items data
 const POE_ITEMS_PATH = path.join(__dirname, 'PathOfBuilding-PoE2', 'src', 'Data', 'Bases');
 
-function extractItems() {
-    const items = {};
-    
-    try {
-        const files = fs.readdirSync(POE_ITEMS_PATH);
-        
-        files.forEach(file => {
-            if (!file.endsWith('.lua')) return;
-            
-            const baseType = file.replace('.lua', '');
-            const content = fs.readFileSync(path.join(POE_ITEMS_PATH, file), 'utf8');
-            const itemsInFile = parseFile(content, baseType);
-            
-            // Add items to their respective categories
-            itemsInFile.forEach(item => {
-                const category = item.subType || baseType;
-                if (!items[category]) {
-                    items[category] = [];
-                }
-                items[category].push(item);
-            });
-        });
-        
-        fs.writeFileSync('items.json', JSON.stringify(items, null, 2));
-        console.log(`Successfully extracted items into ${Object.keys(items).length} categories`);
-        
-    } catch (error) {
-        console.error('Error extracting items:', error);
-        process.exit(1);
-    }
-}
+// Map of internal types to PoE filter classes
+const typeToClass = {
+    'Amulet': 'Amulet',
+    'Ring': 'Ring',
+    'Belt': 'Belt',
+    'Body Armour': 'Body Armour',
+    'Boots': 'Boots',
+    'Gloves': 'Gloves',
+    'Helmet': 'Helmet',
+    'Shield': 'Shield',
+    'Quiver': 'Quiver',
+    'One Handed Sword': 'One Handed Sword',
+    'Two Handed Sword': 'Two Handed Sword',
+    'One Handed Axe': 'One Handed Axe',
+    'Two Handed Axe': 'Two Handed Axe',
+    'One Handed Mace': 'One Handed Mace',
+    'Two Handed Mace': 'Two Handed Mace',
+    'Bow': 'Bow',
+    'Claw': 'Claw',
+    'Dagger': 'Dagger',
+    'Staff': 'Staff',
+    'Wand': 'Wand',
+    'Fishing Rod': 'Fishing Rod',
+    'Crossbow': 'Crossbow',
+    'Flail': 'Flail',
+    'Focus': 'Focus',
+    'Charm': 'Charm',
+    'Flask': 'Flask'
+};
 
-function parseFile(content, baseType) {
-    const items = [];
-    let currentItem = null;
-    let currentBlock = null;
-    let blockDepth = 0;
-    let blockContent = '';
-    
-    // Split content into lines and process each line
-    const lines = content.split('\n');
-    
-    for (let line of lines) {
-        line = line.trim();
-        if (!line) continue;
-        
-        // Start of new item
-        if (line.startsWith('itemBases["')) {
-            if (currentItem) {
-                if (currentItem.type) {
-                    currentItem.class = currentItem.type;
-                    delete currentItem.type;
-                }
-                items.push(currentItem);
-            }
-            const itemName = line.match(/itemBases\["([^"]+)"\]/)[1];
-            currentItem = { baseType: itemName };
-            currentBlock = null;
-            blockDepth = 0;
-            continue;
-        }
-        
-        // End of item
-        if (line === '}' && blockDepth === 0) {
-            if (currentItem) {
-                if (currentItem.type) {
-                    currentItem.class = currentItem.type;
-                    delete currentItem.type;
-                }
-                items.push(currentItem);
-                currentItem = null;
-            }
-            continue;
-        }
-        
-        // Handle nested blocks
-        const openBraces = (line.match(/{/g) || []).length;
-        const closeBraces = (line.match(/}/g) || []).length;
-        
-        // Start of a block
-        if (openBraces > closeBraces) {
-            if (blockDepth === 0) {
-                currentBlock = line.split('=')[0].trim();
-                blockContent = '';
-            } else {
-                blockContent += line + '\n';
-            }
-            blockDepth += (openBraces - closeBraces);
-            continue;
-        }
-        
-        // End of a block
-        if (closeBraces > openBraces) {
-            blockDepth -= (closeBraces - openBraces);
-            if (blockDepth === 0 && currentBlock) {
-                blockContent += line;
-                if (currentItem) {
-                    currentItem[currentBlock] = parseLuaTable(blockContent);
-                }
-                currentBlock = null;
-                blockContent = '';
-            } else {
-                blockContent += line + '\n';
-            }
-            continue;
-        }
-        
-        // Inside a block
-        if (blockDepth > 0) {
-            blockContent += line + '\n';
-            continue;
-        }
-        
-        // Skip if we're not in an item
-        if (!currentItem) continue;
-        
-        // Parse key-value pairs
-        if (line.includes('=')) {
-            const [key, ...valueParts] = line.split('=');
-            const value = valueParts.join('=').trim(); // Handle values that might contain =
-            let cleanKey = key.trim().replace(/"/g, '');
-            
-            if (cleanKey === 'type') {
-                cleanKey = 'class';
-            }
-            
-            if (value.endsWith(',')) {
-                currentItem[cleanKey] = parseLuaValue(value.slice(0, -1));
-            } else {
-                currentItem[cleanKey] = parseLuaValue(value);
-            }
-        }
-    }
-    
-    // Add the last item if exists
-    if (currentItem) {
-        if (currentItem.type) {
-            currentItem.class = currentItem.type;
-            delete currentItem.type;
-        }
-        items.push(currentItem);
-    }
-    
-    return items;
-}
+// Armor tag mapping for subcategories
+const armorTagToSubclass = {
+    'str_armour': 'Strength Armor',
+    'dex_armour': 'Dexterity Armor',
+    'int_armour': 'Intelligence Armor',
+    'str_dex_armour': 'Strength/Dexterity Armor',
+    'str_int_armour': 'Strength/Intelligence Armor',
+    'dex_int_armour': 'Dexterity/Intelligence Armor',
+    'str_dex_int_armour': 'Strength/Dexterity/Intelligence Armor'
+};
 
-function parseLuaTable(content) {
-    // Handle empty tables
-    if (content.trim().match(/^{[\s,}]*}$/)) {
-        return {};
-    }
-    
-    const result = {};
-    const lines = content.split('\n');
-    
-    for (let line of lines) {
-        line = line.trim();
-        if (!line || line === '{' || line === '}' || line === '},') continue;
-        
-        // Handle key-value pairs
-        if (line.includes('=')) {
-            const [key, ...valueParts] = line.split('=');
-            const value = valueParts.join('=').trim();
-            const cleanKey = key.trim().replace(/"/g, '');
-            
-            if (value.endsWith(',')) {
-                result[cleanKey] = parseLuaValue(value.slice(0, -1));
-            } else {
-                result[cleanKey] = parseLuaValue(value);
+// Read all Lua files from the PoE2 data directory
+const baseDir = './PathOfBuilding-PoE2/src/Data/Bases';
+const files = fs.readdirSync(baseDir).filter(file => file.endsWith('.lua'));
+
+const items = [];
+
+files.forEach(file => {
+    const content = fs.readFileSync(`${baseDir}/${file}`, 'utf8');
+    const itemBlocks = content.split('itemBases["').slice(1);
+
+    itemBlocks.forEach(block => {
+        try {
+            // Extract item name
+            const nameMatch = block.match(/^([^"]+)"\]/);
+            if (!nameMatch) return;
+            const name = nameMatch[1];
+
+            // Extract type
+            const typeMatch = block.match(/type = "([^"]+)"/);
+            if (!typeMatch) return;
+            const type = typeMatch[1];
+
+            // Map type to class
+            const itemClass = typeToClass[type] || type;
+
+            // Extract tags
+            const tagsMatch = block.match(/tags\s*=\s*{([^}]+)}/);
+            const tags = [];
+            let subclass = null;
+
+            if (tagsMatch) {
+                const tagContent = tagsMatch[1];
+                const tagMatches = tagContent.match(/(\w+)\s*=\s*true/g) || [];
+                tagMatches.forEach(tag => {
+                    const tagName = tag.split('=')[0].trim();
+                    tags.push(tagName);
+                    
+                    // Check if this is an armor subclass tag
+                    if (armorTagToSubclass[tagName]) {
+                        subclass = armorTagToSubclass[tagName];
+                    }
+                });
             }
-        }
-    }
-    
-    return result;
-}
 
-function parseLuaValue(value) {
-    value = value.trim();
-    
-    // Boolean
-    if (value === 'true') return true;
-    if (value === 'false') return false;
-    
-    // Number
-    if (!isNaN(value) && value !== '') return Number(value);
-    
-    // String (with or without quotes)
-    if (value.startsWith('"') && value.endsWith('"')) {
-        return value.slice(1, -1);
-    }
-    if (value.startsWith("'") && value.endsWith("'")) {
-        return value.slice(1, -1);
-    }
-    
-    // Empty table
-    if (value === '{ }' || value === '{}') return {};
-    
-    // Table with values
-    if (value.startsWith('{') && value.endsWith('}')) {
-        const tableContent = value.slice(1, -1).trim();
-        const items = tableContent.split(',').map(item => item.trim()).filter(item => item);
-        
-        // If it looks like a key-value table
-        if (items.some(item => item.includes('='))) {
-            const result = {};
-            items.forEach(item => {
-                if (item.includes('=')) {
-                    const [key, val] = item.split('=').map(s => s.trim());
-                    const cleanKey = key.replace(/"/g, '');
-                    result[cleanKey] = parseLuaValue(val);
+            // Create base item object
+            const item = {
+                name,
+                class: itemClass,
+                baseType: name,
+                tags,
+                subclass,
+                requirements: {
+                    level: 0,
+                    strength: 0,
+                    dexterity: 0,
+                    intelligence: 0
                 }
-            });
-            return result;
-        }
-        
-        // If it looks like an array
-        return items.map(item => parseLuaValue(item));
-    }
-    
-    // Return as is for other cases
-    return value;
-}
+            };
 
-// Run the extraction
-extractItems(); 
+            // Extract weapon stats if present
+            const weaponBlock = block.match(/weapon = {([^}]+)}/s);
+            if (weaponBlock) {
+                const weaponStats = {
+                    physicalDamage: [
+                        parseFloat(weaponBlock[1].match(/PhysicalMin\s*=\s*([0-9.]+)/)?.[1] || 0),
+                        parseFloat(weaponBlock[1].match(/PhysicalMax\s*=\s*([0-9.]+)/)?.[1] || 0)
+                    ],
+                    criticalStrikeChance: parseFloat(weaponBlock[1].match(/CritChance\s*=\s*([0-9.]+)/)?.[1] || 0),
+                    attacksPerSecond: parseFloat(weaponBlock[1].match(/AttackRateBase\s*=\s*([0-9.]+)/)?.[1] || 0),
+                    range: parseInt(weaponBlock[1].match(/Range\s*=\s*([0-9]+)/)?.[1] || 0)
+                };
+                
+                // Only add weapon stats if any value is non-zero
+                if (Object.values(weaponStats).some(v => Array.isArray(v) ? v.some(n => n > 0) : v > 0)) {
+                    item.weaponStats = weaponStats;
+                }
+            }
+
+            // Extract armor stats if present
+            const armorBlock = block.match(/armour = {([^}]+)}/s);
+            if (armorBlock) {
+                const armorStats = {
+                    armor: parseInt(armorBlock[1].match(/Armour\s*=\s*([0-9]+)/)?.[1] || 0),
+                    evasion: parseInt(armorBlock[1].match(/Evasion\s*=\s*([0-9]+)/)?.[1] || 0),
+                    energyShield: parseInt(armorBlock[1].match(/EnergyShield\s*=\s*([0-9]+)/)?.[1] || 0),
+                    ward: parseInt(armorBlock[1].match(/Ward\s*=\s*([0-9]+)/)?.[1] || 0)
+                };
+                
+                // Only add armor stats if any value is non-zero
+                if (Object.values(armorStats).some(v => v > 0)) {
+                    item.armorStats = armorStats;
+                }
+            }
+
+            // Extract requirements if present
+            const reqBlock = block.match(/req = {([^}]+)}/s);
+            if (reqBlock) {
+                item.requirements = {
+                    level: parseInt(reqBlock[1].match(/Level\s*=\s*([0-9]+)/)?.[1] || 0),
+                    strength: parseInt(reqBlock[1].match(/Str\s*=\s*([0-9]+)/)?.[1] || 0),
+                    dexterity: parseInt(reqBlock[1].match(/Dex\s*=\s*([0-9]+)/)?.[1] || 0),
+                    intelligence: parseInt(reqBlock[1].match(/Int\s*=\s*([0-9]+)/)?.[1] || 0)
+                };
+            }
+
+            // Extract implicit mods if present
+            const implicitBlock = block.match(/implicit = {([^}]+)}/s);
+            if (implicitBlock) {
+                item.implicit = implicitBlock[1].trim();
+            }
+
+            items.push(item);
+        } catch (error) {
+            console.error('Error processing item block:', error);
+        }
+    });
+});
+
+// Write the extracted data to items.json
+fs.writeFileSync('items.json', JSON.stringify(items, null, 2));
+console.log(`Successfully extracted ${items.length} items`); 
