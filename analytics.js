@@ -1,5 +1,10 @@
 // Google Analytics 4 with IP anonymization
 (function() {
+    // Only run if user has consented
+    if (localStorage.getItem('analyticsConsent') !== 'true') {
+        return;
+    }
+
     const GA_MEASUREMENT_ID = 'G-23J2GDK21Q';
     
     // Load GA4 script
