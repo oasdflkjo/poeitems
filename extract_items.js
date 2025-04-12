@@ -25,6 +25,7 @@ const typeToClass = {
     'Claw': 'Claw',
     'Dagger': 'Dagger',
     'Staff': 'Staff',
+    'Warstaff': 'Warstaff',
     'Wand': 'Wand',
     'Fishing Rod': 'Fishing Rod',
     'Crossbow': 'Crossbow',
@@ -47,7 +48,7 @@ const armorTagToSubclass = {
 
 function extractItems() {
     const files = fs.readdirSync('./PathOfBuilding-PoE2/src/Data/Bases');
-    const items = [];
+    const itemMap = new Map(); // Use a map to prevent duplicates
 
     files.forEach(file => {
         if (!file.endsWith('.lua')) return;
@@ -62,14 +63,28 @@ function extractItems() {
                 if (!nameMatch) return;
                 const name = nameMatch[1];
 
+                // Skip ONLY the dummy Ring base item
+                if (name === "Ring" && block.includes('type = "Ring"') && block.includes('tags = { ring = true, default = true, }')) {
+                    return;
+                }
+
                 // Extract implicit
                 const implicitMatch = block.match(/implicit = "([^"]+)"/);
                 const implicit = implicitMatch ? implicitMatch[1] : null;
 
-                // Extract class and tags
+                // Extract class and subType
                 const classMatch = block.match(/type = "([^"]+)"/);
+                const subTypeMatch = block.match(/subType = "([^"]+)"/);
                 if (!classMatch) return;
-                const itemClass = classMatch[1];
+                
+                let itemClass = classMatch[1];
+                // Handle staff types properly
+                if (itemClass === "Staff") {
+                    if (subTypeMatch && subTypeMatch[1] === "Warstaff") {
+                        itemClass = "Warstaff";
+                    }
+                    // Keep it as "Staff" for regular staves
+                }
 
                 // Extract tags properly from the tags block
                 const tagsBlock = block.match(/tags = {([^}]+)}/);
@@ -157,7 +172,8 @@ function extractItems() {
                     requirements.intelligence = parseInt(blockContent.match(/int = ([0-9]+)/)?.[1] || 0);
                 }
 
-                items.push({
+                // Use name as key to prevent duplicates
+                itemMap.set(name, {
                     name,
                     class: itemClass,
                     implicit,
@@ -172,6 +188,8 @@ function extractItems() {
         });
     });
 
+    // Convert map to array and write to file
+    const items = Array.from(itemMap.values());
     fs.writeFileSync('items.json', JSON.stringify(items, null, 4));
     console.log(`Extracted ${items.length} items`);
 }

@@ -133,6 +133,12 @@ const armorTagToSubclass = {
 // Add at the top of the file
 const ARMOR_TYPES = ['Body Armour', 'Boots', 'Gloves', 'Helmet', 'Shield'];
 
+// Define armor and weapon categories
+const armorTypes = ['Body Armour', 'Boots', 'Gloves', 'Helmet', 'Shield'];
+const weaponTypes = ['One Handed Sword', 'Two Handed Sword', 'One Handed Axe', 'Two Handed Axe', 
+    'One Handed Mace', 'Two Handed Mace', 'Bow', 'Claw', 'Dagger', 'Staff', 'Warstaff', 'Wand', 
+    'Fishing Rod', 'Crossbow', 'Flail'];
+
 function calculateMaxColumnWidths(items) {
     // Reset name and class widths
     COLUMN_WIDTHS.name = 0;
@@ -309,10 +315,11 @@ function createButtons() {
     const categories = {
         'Armour': ['Body Armour', 'Boots', 'Gloves', 'Helmet', 'Shield'],
         'Weapons': ['Bow', 'Claw', 'Crossbow', 'Dagger', 'Fishing Rod', 'Flail', 'One Handed Axe', 
-                   'One Handed Mace', 'One Handed Sword', 'Spear', 'Staff', 'Warstaff', 'Two Handed Axe', 
-                   'Two Handed Mace', 'Two Handed Sword', 'Wand'],
+                   'One Handed Mace', 'One Handed Sword', 'Sceptre', 'Spear', 'Staff', 'Warstaff', 
+                   'Two Handed Axe', 'Two Handed Mace', 'Two Handed Sword', 'Wand'],
         'Jewelry': ['Amulet', 'Belt', 'Ring'],
-        'Misc': ['Charm', 'Flask', 'Focus', 'Jewel', 'Quiver', 'Rune', 'Sceptre', 'SoulCore', 'TrapTool']
+        'Off-hand': ['Quiver', 'TrapTool', 'Focus'],
+        'Misc': ['Charm', 'Flask', 'Jewel', 'Rune', 'SoulCore']
     };
 
     const buttonContainer = document.querySelector('.class-buttons');
@@ -330,7 +337,8 @@ function createButtons() {
         const buttonsDiv = document.createElement('div');
         buttonsDiv.className = 'category-buttons';
         
-        items.forEach(itemClass => {
+        // Sort items alphabetically within each category
+        items.sort().forEach(itemClass => {
             const button = document.createElement('button');
             button.textContent = itemClass;
             button.addEventListener('click', () => handleClassButtonClick(button, itemClass));
@@ -343,21 +351,37 @@ function createButtons() {
 }
 
 function handleClassButtonClick(button, itemClass) {
-    const searchInput = document.getElementById('search');
-    searchInput.value = itemClass;
-    selectedClass = itemClass;
-    selectedSubclass = null;
+    // Remove active state from all class buttons
+    document.querySelectorAll('.category-buttons button').forEach(btn => btn.classList.remove('active'));
     
-    // Remove active class from all buttons
-    button.parentNode.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-    // Add active class to clicked button
+    // Add active state to clicked button
     button.classList.add('active');
     
-    // Show subclass buttons if it's Body Armour
-    updateSubclassButtons(itemClass);
+    // Clear subclass selection if switching between armor and weapons
+    const isNewArmor = armorTypes.includes(itemClass);
+    const isOldArmor = armorTypes.includes(selectedClass);
+    const isNewWeapon = weaponTypes.includes(itemClass);
+    const isOldWeapon = weaponTypes.includes(selectedClass);
     
-    // Display all items of this class
-    const results = itemsByClass[itemClass] || [];
+    if ((isNewArmor && isOldWeapon) || (isNewWeapon && isOldArmor) || selectedClass !== itemClass) {
+        selectedSubclass = null;
+    }
+    
+    selectedClass = itemClass;
+    
+    // Update subclass buttons first
+    if (ARMOR_TYPES.includes(itemClass)) {
+        updateSubclassButtons(itemClass);
+        document.querySelector('.subclass-buttons').style.display = 'flex';
+    } else {
+        document.querySelector('.subclass-buttons').style.display = 'none';
+    }
+    
+    // Then update results
+    let results = itemsByClass[itemClass] || [];
+    if (selectedSubclass) {
+        results = results.filter(item => item.tags.includes(selectedSubclass));
+    }
     displayResults(results);
 }
 
@@ -365,16 +389,17 @@ function updateSubclassButtons(itemClass) {
     const subclassContainer = document.querySelector('.subclass-buttons');
     if (!subclassContainer) return;
 
-    // Show subclass buttons for all armor types
+    subclassContainer.innerHTML = '';
+
+    // Only show subclass buttons for armor types
     if (ARMOR_TYPES.includes(itemClass)) {
-        subclassContainer.innerHTML = '';
         subclassContainer.style.display = 'flex';
 
         // Add "All" button
         const allButton = document.createElement('button');
         allButton.textContent = 'All';
-        allButton.classList.add('active');
         allButton.addEventListener('click', () => handleSubclassButtonClick(allButton, null));
+        if (!selectedSubclass) allButton.classList.add('active');
         subclassContainer.appendChild(allButton);
 
         // Get available subtypes for this armor class
@@ -391,6 +416,7 @@ function updateSubclassButtons(itemClass) {
         Array.from(availableSubtypes).sort().forEach(tag => {
             const button = document.createElement('button');
             button.textContent = armorTagToSubclass[tag];
+            if (selectedSubclass === tag) button.classList.add('active');
             button.addEventListener('click', () => handleSubclassButtonClick(button, tag));
             subclassContainer.appendChild(button);
         });
@@ -400,17 +426,18 @@ function updateSubclassButtons(itemClass) {
 }
 
 function handleSubclassButtonClick(button, subclass) {
-    selectedSubclass = subclass;
-
-    // Update button states
-    const buttons = button.parentNode.querySelectorAll('button');
-    buttons.forEach(b => b.classList.remove('active'));
+    // Remove active state from all subclass buttons
+    document.querySelectorAll('.subclass-buttons button').forEach(btn => btn.classList.remove('active'));
+    
+    // Add active state to clicked button
     button.classList.add('active');
-
-    // Filter items by subclass if selected
+    
+    selectedSubclass = subclass;
+    
+    // Update results with selected subclass filter
     let results = itemsByClass[selectedClass] || [];
-    if (selectedSubclass) {
-        results = results.filter(item => item.tags.includes(selectedSubclass));
+    if (subclass) {
+        results = results.filter(item => item.tags.includes(subclass));
     }
     displayResults(results);
 }
@@ -517,8 +544,11 @@ function removeActive(items) {
 
 function displayResults(results) {
     const resultsDiv = document.getElementById('results');
+    const tableContainer = document.querySelector('.table-container');
+    
     if (!results || results.length === 0) {
         resultsDiv.innerHTML = '<p>No results found</p>';
+        tableContainer.style.display = 'none';
         return;
     }
 
@@ -547,13 +577,20 @@ function displayResults(results) {
         table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Crit</th>';
         if (usedColumns.range) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Range</th>';
     }
+
+    // Add trap stats headers if used
+    if (usedColumns.cooldown) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Cooldown</th>';
+    if (usedColumns.duration) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Duration</th>';
+    if (usedColumns.radius) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Radius</th>';
     
     table += '</tr></thead><tbody>';
 
     results.forEach(item => {
         table += '<tr>';
         table += `<td>${item.name || ''}</td>`;
-        table += `<td>${item.implicit || ''}</td>`;
+        // Format implicit modifiers with line breaks
+        const implicit = item.implicit ? item.implicit.replace(/\\n/g, '<br>') : '';
+        table += `<td>${implicit}</td>`;
         
         // Add requirement values if used
         if (usedColumns.level) table += `<td>${item.requirements?.level || 0}</td>`;
@@ -575,15 +612,18 @@ function displayResults(results) {
             table += `<td>${item.weaponStats?.criticalStrikeChance || 0}</td>`;
             if (usedColumns.range) table += `<td>${item.weaponStats?.range || 0}</td>`;
         }
+
+        // Add trap stats values if used
+        if (usedColumns.cooldown) table += `<td>${item.trapStats?.cooldown || 0}</td>`;
+        if (usedColumns.duration) table += `<td>${item.trapStats?.duration || 0}</td>`;
+        if (usedColumns.radius) table += `<td>${item.trapStats?.radius || 0}</td>`;
         
         table += '</tr>';
     });
 
     table += '</tbody></table>';
     resultsDiv.innerHTML = table;
-    
-    // Show table container
-    document.querySelector('.table-container').style.display = 'block';
+    tableContainer.style.display = 'block';
 }
 
 function analyzeColumns(results) {
@@ -601,7 +641,11 @@ function analyzeColumns(results) {
         physicalDamage: false,
         attacksPerSecond: false,
         criticalStrikeChance: false,
-        range: false
+        range: false,
+        // Add trap stats
+        cooldown: false,
+        duration: false,
+        radius: false
     };
 
     results.forEach(item => {
@@ -630,6 +674,13 @@ function analyzeColumns(results) {
             usedColumns.attacksPerSecond = true;
             usedColumns.criticalStrikeChance = true;
             if (item.weaponStats.range !== null) usedColumns.range = true;
+        }
+
+        // Check trap stats
+        if (item.class === 'TrapTool') {
+            usedColumns.cooldown = true;
+            usedColumns.duration = true;
+            usedColumns.radius = true;
         }
     });
 

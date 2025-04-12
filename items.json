@@ -4014,64 +4014,6 @@
     {
         "name": "Tournament Mail",
         "class": "Body Armour",
-        "implicit": "+(20-25)% to Fire Resistance",
-        "tags": [
-            "body_armour",
-            "armour",
-            "str_dex_armour",
-            "default"
-        ],
-        "requirements": {
-            "level": 68,
-            "strength": 86,
-            "dexterity": 86,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 245,
-            "evasion": 223,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Tournament Mail",
-        "class": "Body Armour",
-        "implicit": "+(20-25)% to Cold Resistance",
-        "tags": [
-            "body_armour",
-            "armour",
-            "str_dex_armour",
-            "default"
-        ],
-        "requirements": {
-            "level": 68,
-            "strength": 86,
-            "dexterity": 86,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 245,
-            "evasion": 223,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Tournament Mail",
-        "class": "Body Armour",
         "implicit": "+(20-25)% to Lightning Resistance",
         "tags": [
             "body_armour",
@@ -4313,64 +4255,6 @@
         ],
         "requirements": {
             "level": 65,
-            "strength": 86,
-            "dexterity": 86,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 245,
-            "evasion": 223,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Shrouded Mail",
-        "class": "Body Armour",
-        "implicit": "+(20-25)% to Fire Resistance",
-        "tags": [
-            "body_armour",
-            "armour",
-            "str_dex_armour",
-            "default"
-        ],
-        "requirements": {
-            "level": 70,
-            "strength": 86,
-            "dexterity": 86,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 245,
-            "evasion": 223,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Shrouded Mail",
-        "class": "Body Armour",
-        "implicit": "+(20-25)% to Cold Resistance",
-        "tags": [
-            "body_armour",
-            "armour",
-            "str_dex_armour",
-            "default"
-        ],
-        "requirements": {
-            "level": 70,
             "strength": 86,
             "dexterity": 86,
             "intelligence": 0
@@ -5310,10 +5194,10 @@
             "default"
         ],
         "requirements": {
-            "level": 51,
+            "level": 45,
             "strength": 0,
-            "dexterity": 59,
-            "intelligence": 59
+            "dexterity": 51,
+            "intelligence": 51
         },
         "weaponStats": {
             "physicalDamage": null,
@@ -5323,8 +5207,8 @@
         },
         "armorStats": {
             "armor": 0,
-            "evasion": 149,
-            "energyShield": 58,
+            "evasion": 133,
+            "energyShield": 53,
             "ward": 0
         }
     },
@@ -5470,35 +5354,6 @@
             "armor": 0,
             "evasion": 223,
             "energyShield": 84,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Ascetic Garb",
-        "class": "Body Armour",
-        "implicit": null,
-        "tags": [
-            "body_armour",
-            "armour",
-            "dex_int_armour",
-            "default"
-        ],
-        "requirements": {
-            "level": 45,
-            "strength": 0,
-            "dexterity": 51,
-            "intelligence": 51
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 133,
-            "energyShield": 53,
             "ward": 0
         }
     },
@@ -13889,10 +13744,10 @@
             "default"
         ],
         "requirements": {
-            "level": 52,
+            "level": 51,
             "strength": 0,
             "dexterity": 0,
-            "intelligence": 83
+            "intelligence": 82
         },
         "weaponStats": {
             "physicalDamage": null,
@@ -13962,35 +13817,6 @@
             "armor": 0,
             "evasion": 0,
             "energyShield": 32,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Embroidered Gloves",
-        "class": "Gloves",
-        "implicit": null,
-        "tags": [
-            "int_armour",
-            "armour",
-            "gloves",
-            "default"
-        ],
-        "requirements": {
-            "level": 51,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 82
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 35,
             "ward": 0
         }
     },
@@ -20940,33 +20766,6 @@
         }
     },
     {
-        "name": "Ring",
-        "class": "Ring",
-        "implicit": null,
-        "tags": [
-            "ring",
-            "default"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
         "name": "Dusk Ring",
         "class": "Ring",
         "implicit": "+1 Prefix Modifier allowed\\n-1 Suffix Modifier allowed",
@@ -21244,62 +21043,6 @@
     {
         "name": "Shrine Sceptre",
         "class": "Sceptre",
-        "implicit": "Grants Skill: Level (1-20) Purity of Fire",
-        "tags": [
-            "default",
-            "onehand",
-            "sceptre"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Shrine Sceptre",
-        "class": "Sceptre",
-        "implicit": "Grants Skill: Level (1-20) Purity of Ice",
-        "tags": [
-            "default",
-            "onehand",
-            "sceptre"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Shrine Sceptre",
-        "class": "Sceptre",
         "implicit": "Grants Skill: Level (1-20) Purity of Lightning",
         "tags": [
             "default",
@@ -21497,90 +21240,6 @@
         "name": "Hallowed Sceptre",
         "class": "Sceptre",
         "implicit": "Grants Skill: Level (1-20) Skeletal Warrior Minion",
-        "tags": [
-            "default",
-            "onehand",
-            "sceptre"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Shrine Sceptre",
-        "class": "Sceptre",
-        "implicit": "Grants Skill: Level (1-20) Purity of Fire",
-        "tags": [
-            "default",
-            "onehand",
-            "sceptre"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Shrine Sceptre",
-        "class": "Sceptre",
-        "implicit": "Grants Skill: Level (1-20) Purity of Ice",
-        "tags": [
-            "default",
-            "onehand",
-            "sceptre"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Shrine Sceptre",
-        "class": "Sceptre",
-        "implicit": "Grants Skill: Level (1-20) Purity of Lightning",
         "tags": [
             "default",
             "onehand",
@@ -22358,276 +22017,6 @@
         }
     },
     {
-        "name": "Aged Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 45,
-            "strength": 83,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 110,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Metalworked Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 48,
-            "strength": 88,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 116,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Cultist Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 51,
-            "strength": 94,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 123,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Bulwark Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 55,
-            "strength": 101,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 131,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Noble Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 59,
-            "strength": 108,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 139,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Goldworked Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 61,
-            "strength": 112,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 144,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Royal Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 65,
-            "strength": 118,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 152,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Fortress Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 70,
-            "strength": 129,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 167,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Vaal Tower Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_armour",
-            "str_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 75,
-            "strength": 139,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 182,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
         "name": "Leather Buckler",
         "class": "Shield",
         "implicit": "Grants Skill: Level (1-20) Parry",
@@ -22958,9 +22347,9 @@
             "shield"
         ],
         "requirements": {
-            "level": 52,
+            "level": 65,
             "strength": 0,
-            "dexterity": 95,
+            "dexterity": 118,
             "intelligence": 0
         },
         "weaponStats": {
@@ -22971,7 +22360,7 @@
         },
         "armorStats": {
             "armor": 0,
-            "evasion": 90,
+            "evasion": 111,
             "energyShield": 0,
             "ward": 0
         }
@@ -23220,316 +22609,6 @@
         "armorStats": {
             "armor": 0,
             "evasion": 105,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Ornate Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 65,
-            "strength": 0,
-            "dexterity": 118,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 111,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Gutspike Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 70,
-            "strength": 0,
-            "dexterity": 129,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 122,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Ancient Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 75,
-            "strength": 0,
-            "dexterity": 139,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 133,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Oak Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 45,
-            "strength": 0,
-            "dexterity": 83,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 79,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Painted Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 48,
-            "strength": 0,
-            "dexterity": 88,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 84,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Coiled Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 51,
-            "strength": 0,
-            "dexterity": 94,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 89,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Spikeward Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 55,
-            "strength": 0,
-            "dexterity": 101,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 95,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Jingling Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 59,
-            "strength": 0,
-            "dexterity": 108,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 101,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Bladeguard Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 61,
-            "strength": 0,
-            "dexterity": 112,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 105,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Ornate Buckler",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Parry",
-        "tags": [
-            "buckler",
-            "dex_shield",
-            "dex_armour",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 65,
-            "strength": 0,
-            "dexterity": 118,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 111,
             "energyShield": 0,
             "ward": 0
         }
@@ -24203,276 +23282,6 @@
         }
     },
     {
-        "name": "Ironwood Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 45,
-            "strength": 46,
-            "dexterity": 46,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 61,
-            "evasion": 54,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Fur-lined Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 48,
-            "strength": 49,
-            "dexterity": 49,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 64,
-            "evasion": 58,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Mercenary Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 51,
-            "strength": 52,
-            "dexterity": 52,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 67,
-            "evasion": 61,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Polished Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 55,
-            "strength": 55,
-            "dexterity": 55,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 72,
-            "evasion": 65,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Stone Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 59,
-            "strength": 59,
-            "dexterity": 59,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 77,
-            "evasion": 70,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Avian Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 62,
-            "strength": 62,
-            "dexterity": 62,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 80,
-            "evasion": 73,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Mammoth Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 65,
-            "strength": 65,
-            "dexterity": 65,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 84,
-            "evasion": 76,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Baroque Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 70,
-            "strength": 70,
-            "dexterity": 70,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 92,
-            "evasion": 84,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Soaring Targe",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_dex_armour",
-            "str_dex_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 75,
-            "strength": 76,
-            "dexterity": 76,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 100,
-            "evasion": 91,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
         "name": "Blazon Crest Shield",
         "class": "Shield",
         "implicit": "Grants Skill: Level (1-20) Raise Shield",
@@ -24805,276 +23614,6 @@
             "armor": 84,
             "evasion": 0,
             "energyShield": 29,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Painted Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 45,
-            "strength": 46,
-            "dexterity": 0,
-            "intelligence": 46
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 61,
-            "evasion": 0,
-            "energyShield": 22,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Engraved Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 48,
-            "strength": 49,
-            "dexterity": 0,
-            "intelligence": 49
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 64,
-            "evasion": 0,
-            "energyShield": 23,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Descry Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 51,
-            "strength": 52,
-            "dexterity": 0,
-            "intelligence": 52
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 67,
-            "evasion": 0,
-            "energyShield": 24,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Dekharan Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 55,
-            "strength": 55,
-            "dexterity": 0,
-            "intelligence": 55
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 72,
-            "evasion": 0,
-            "energyShield": 25,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Quartered Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 59,
-            "strength": 59,
-            "dexterity": 0,
-            "intelligence": 59
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 77,
-            "evasion": 0,
-            "energyShield": 27,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Glowering Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 62,
-            "strength": 62,
-            "dexterity": 0,
-            "intelligence": 62
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 80,
-            "evasion": 0,
-            "energyShield": 28,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Intricate Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 65,
-            "strength": 65,
-            "dexterity": 0,
-            "intelligence": 65
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 84,
-            "evasion": 0,
-            "energyShield": 29,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Sekheman Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 70,
-            "strength": 70,
-            "dexterity": 0,
-            "intelligence": 70
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 92,
-            "evasion": 0,
-            "energyShield": 32,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Vaal Crest Shield",
-        "class": "Shield",
-        "implicit": "Grants Skill: Level (1-20) Raise Shield",
-        "tags": [
-            "str_int_armour",
-            "str_int_shield",
-            "armour",
-            "default",
-            "shield"
-        ],
-        "requirements": {
-            "level": 75,
-            "strength": 76,
-            "dexterity": 0,
-            "intelligence": 76
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": null,
-            "criticalStrikeChance": null,
-            "range": null
-        },
-        "armorStats": {
-            "armor": 100,
-            "evasion": 0,
-            "energyShield": 35,
             "ward": 0
         }
     },
@@ -27910,7 +26449,7 @@
     },
     {
         "name": "Wrapped Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -27944,7 +26483,7 @@
     },
     {
         "name": "Long Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": "16% increased Melee Strike Range with this weapon",
         "tags": [
             "two_hand_weapon",
@@ -27978,7 +26517,7 @@
     },
     {
         "name": "Gothic Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28012,7 +26551,7 @@
     },
     {
         "name": "Crackling Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28043,7 +26582,7 @@
     },
     {
         "name": "Crescent Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28077,7 +26616,7 @@
     },
     {
         "name": "Steelpoint Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28111,7 +26650,7 @@
     },
     {
         "name": "Slicing Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28145,7 +26684,7 @@
     },
     {
         "name": "Barrier Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": "+(10-15)% to Block chance",
         "tags": [
             "two_hand_weapon",
@@ -28179,7 +26718,7 @@
     },
     {
         "name": "Hefty Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28212,7 +26751,7 @@
     },
     {
         "name": "Smooth Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28245,7 +26784,7 @@
     },
     {
         "name": "Anima Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28278,7 +26817,7 @@
     },
     {
         "name": "Graceful Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28311,7 +26850,7 @@
     },
     {
         "name": "Wyrm Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28344,7 +26883,7 @@
     },
     {
         "name": "Reaching Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": "16% increased Melee Strike Range with this weapon",
         "tags": [
             "two_hand_weapon",
@@ -28377,7 +26916,7 @@
     },
     {
         "name": "Barbarous Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28410,7 +26949,7 @@
     },
     {
         "name": "Arcing Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28440,7 +26979,7 @@
     },
     {
         "name": "Waxing Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28473,7 +27012,7 @@
     },
     {
         "name": "Bladed Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28506,7 +27045,7 @@
     },
     {
         "name": "Guardian Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": "+(10-15)% to Block chance",
         "tags": [
             "two_hand_weapon",
@@ -28539,7 +27078,7 @@
     },
     {
         "name": "Sinister Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28572,7 +27111,7 @@
     },
     {
         "name": "Lunar Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28605,7 +27144,7 @@
     },
     {
         "name": "Striking Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": "16% increased Melee Strike Range with this weapon",
         "tags": [
             "two_hand_weapon",
@@ -28638,7 +27177,7 @@
     },
     {
         "name": "Bolting Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -28668,7 +27207,7 @@
     },
     {
         "name": "Aegis Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": "+(10-15)% to Block chance",
         "tags": [
             "two_hand_weapon",
@@ -28701,397 +27240,7 @@
     },
     {
         "name": "Razor Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 77,
-            "strength": 0,
-            "dexterity": 165,
-            "intelligence": 64
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                65,
-                108
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Reaching Quarterstaff",
-        "class": "Staff",
-        "implicit": "16% increased Melee Strike Range with this weapon",
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 45,
-            "strength": 0,
-            "dexterity": 81,
-            "intelligence": 33
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                35,
-                72
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Barbarous Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 48,
-            "strength": 0,
-            "dexterity": 86,
-            "intelligence": 35
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                43,
-                72
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 11.5,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Arcing Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 51,
-            "strength": 0,
-            "dexterity": 91,
-            "intelligence": 36
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Waxing Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 55,
-            "strength": 0,
-            "dexterity": 98,
-            "intelligence": 39
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                40,
-                83
-            ],
-            "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Bladed Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 59,
-            "strength": 0,
-            "dexterity": 105,
-            "intelligence": 42
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                45,
-                94
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Guardian Quarterstaff",
-        "class": "Staff",
-        "implicit": "+(10-15)% to Block chance",
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 62,
-            "strength": 0,
-            "dexterity": 110,
-            "intelligence": 44
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                49,
-                82
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Sinister Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 67,
-            "strength": 0,
-            "dexterity": 135,
-            "intelligence": 53
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                55,
-                92
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 11.5,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Lunar Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 72,
-            "strength": 0,
-            "dexterity": 150,
-            "intelligence": 59
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                50,
-                103
-            ],
-            "attacksPerSecond": 1.5,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Striking Quarterstaff",
-        "class": "Staff",
-        "implicit": "16% increased Melee Strike Range with this weapon",
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 77,
-            "strength": 0,
-            "dexterity": 165,
-            "intelligence": 64
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                53,
-                111
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Bolting Quarterstaff",
-        "class": "Staff",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 78,
-            "strength": 0,
-            "dexterity": 165,
-            "intelligence": 64
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Aegis Quarterstaff",
-        "class": "Staff",
-        "implicit": "+(10-15)% to Block chance",
-        "tags": [
-            "two_hand_weapon",
-            "warstaff",
-            "weapon",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 79,
-            "strength": 0,
-            "dexterity": 165,
-            "intelligence": 64
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                58,
-                97
-            ],
-            "attacksPerSecond": 1.4,
-            "criticalStrikeChance": 10,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Razor Quarterstaff",
-        "class": "Staff",
+        "class": "Warstaff",
         "implicit": null,
         "tags": [
             "two_hand_weapon",
@@ -29125,11 +27274,10 @@
     {
         "name": "Golden Blade",
         "class": "One Handed Sword",
-        "implicit": "+(16-24) to all Attributes",
+        "implicit": null,
         "tags": [
-            "demigods",
             "onehand",
-            "not_for_sale",
+            "ezomyte_basetype",
             "weapon",
             "sword",
             "one_hand_weapon",
@@ -29143,10 +27291,10 @@
         },
         "weaponStats": {
             "physicalDamage": [
-                3,
-                28
+                6,
+                9
             ],
-            "attacksPerSecond": 1.1,
+            "attacksPerSecond": 1.55,
             "criticalStrikeChance": 5,
             "range": 11
         },
@@ -29616,71 +27764,6 @@
             ],
             "attacksPerSecond": 1.55,
             "criticalStrikeChance": 5,
-            "range": 11
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Golden Blade",
-        "class": "One Handed Sword",
-        "implicit": null,
-        "tags": [
-            "onehand",
-            "ezomyte_basetype",
-            "weapon",
-            "sword",
-            "one_hand_weapon",
-            "default"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": [
-                6,
-                9
-            ],
-            "attacksPerSecond": 1.55,
-            "criticalStrikeChance": 5,
-            "range": 11
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Energy Blade One Handed",
-        "class": "One Handed Sword",
-        "implicit": null,
-        "tags": [
-            "onehand",
-            "not_for_sale",
-            "weapon",
-            "sword",
-            "one_hand_weapon",
-            "default"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": 1.7,
-            "criticalStrikeChance": 7,
             "range": 11
         },
         "armorStats": {
@@ -30183,37 +28266,6 @@
             ],
             "attacksPerSecond": 1.3,
             "criticalStrikeChance": 5,
-            "range": 13
-        },
-        "armorStats": {
-            "armor": 0,
-            "evasion": 0,
-            "energyShield": 0,
-            "ward": 0
-        }
-    },
-    {
-        "name": "Energy Blade Two Handed",
-        "class": "Two Handed Sword",
-        "implicit": null,
-        "tags": [
-            "two_hand_weapon",
-            "not_for_sale",
-            "weapon",
-            "sword",
-            "twohand",
-            "default"
-        ],
-        "requirements": {
-            "level": 0,
-            "strength": 0,
-            "dexterity": 0,
-            "intelligence": 0
-        },
-        "weaponStats": {
-            "physicalDamage": null,
-            "attacksPerSecond": 1.6,
-            "criticalStrikeChance": 7,
             "range": 13
         },
         "armorStats": {

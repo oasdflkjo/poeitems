@@ -275,4 +275,18 @@ body {
 .subclass-option {
     padding-left: 24px;
     color: #4a5568;
+}
+
+.table-container td:nth-child(2) {
+    white-space: normal;
+    line-height: 1.4;
+    padding: 8px;
+    max-width: 300px;
+}
+
+/* Ensure other columns remain single line */
+.table-container td:not(:nth-child(2)) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 } 
