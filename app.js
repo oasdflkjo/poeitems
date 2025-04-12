@@ -1,8 +1,13 @@
 // Configuration for Fuse.js
 const fuseOptions = {
-    keys: ['class', 'subclass', 'searchText'],
-    threshold: 0.2,
-    distance: 50
+    keys: ['text'],
+    threshold: 0.4,
+    distance: 100,
+    minMatchCharLength: 2,
+    shouldSort: true,
+    includeScore: true,
+    findAllMatches: true,
+    ignoreLocation: true
 };
 
 let fuse;
@@ -121,20 +126,20 @@ const TABLE_STRUCTURE = [
 
 // Update the armor tag mapping
 const armorTagToSubclass = {
-    'str_armour': 'Strength Armor',
-    'dex_armour': 'Dexterity Armor',
-    'int_armour': 'Intelligence Armor',
-    'str_dex_armour': 'Strength/Dexterity Armor',
-    'str_int_armour': 'Strength/Intelligence Armor',
-    'dex_int_armour': 'Dexterity/Intelligence Armor',
-    'str_dex_int_armour': 'Strength/Dexterity/Intelligence Armor',
-    'str_shield': 'Strength Shield',
-    'dex_shield': 'Dexterity Shield',
-    'int_shield': 'Intelligence Shield',
-    'str_dex_shield': 'Strength/Dexterity Shield',
-    'str_int_shield': 'Strength/Intelligence Shield',
-    'dex_int_shield': 'Dexterity/Intelligence Shield',
-    'str_dex_int_shield': 'Strength/Dexterity/Intelligence Shield'
+    'str_armour': 'Str',
+    'dex_armour': 'Dex',
+    'int_armour': 'Int',
+    'str_dex_armour': 'Str/Dex',
+    'str_int_armour': 'Str/Int',
+    'dex_int_armour': 'Dex/Int',
+    'str_dex_int_armour': 'Str/Dex/Int',
+    'str_shield': 'Str',
+    'dex_shield': 'Dex',
+    'int_shield': 'Int',
+    'str_dex_shield': 'Str/Dex',
+    'str_int_shield': 'Str/Int',
+    'dex_int_shield': 'Dex/Int',
+    'str_dex_int_shield': 'Str/Dex/Int'
 };
 
 // Add at the top of the file
@@ -291,11 +296,7 @@ async function initializeSearch() {
         });
         
         // Initialize Fuse.js with complete search data
-        fuse = new Fuse(searchData, {
-            keys: ['text'],
-            threshold: 0.2,
-            distance: 50
-        });
+        fuse = new Fuse(searchData, fuseOptions);
 
         uniqueClasses = new Set(Object.keys(itemsByClass));
         uniqueSubclasses = subtypesByClass;
@@ -347,6 +348,7 @@ function createButtons() {
         items.sort().forEach(itemClass => {
             const button = document.createElement('button');
             button.textContent = itemClass;
+            button.dataset.class = itemClass;  // Add data attribute for class
             button.addEventListener('click', () => {
                 // Clear all active states first
                 document.querySelectorAll('.category-buttons button').forEach(btn => {
@@ -417,15 +419,23 @@ function updateSubclassButtons(itemClass) {
         if (!selectedSubclass) allButton.classList.add('active');
         subclassContainer.appendChild(allButton);
 
+        // Define the order of armor types
+        const armorTypeOrder = [
+            'str_armour', 'dex_armour', 'int_armour',
+            'str_dex_armour', 'str_int_armour', 'dex_int_armour',
+            'str_dex_int_armour',
+            'str_shield', 'dex_shield', 'int_shield',
+            'str_dex_shield', 'str_int_shield', 'dex_int_shield',
+            'str_dex_int_shield'
+        ];
+
         // Get available subtypes for this armor class
         const availableSubtypes = new Set();
         const isShield = itemClass === 'Shield';
         
         (itemsByClass[itemClass] || []).forEach(item => {
-            // For shields, only use shield tags, for other armor use armor tags
             item.tags.forEach(tag => {
                 if (armorTagToSubclass[tag]) {
-                    // Only add shield tags for shields, and armor tags for other armor types
                     if ((isShield && tag.includes('_shield')) || 
                         (!isShield && tag.includes('_armour'))) {
                         availableSubtypes.add(tag);
@@ -434,13 +444,15 @@ function updateSubclassButtons(itemClass) {
             });
         });
 
-        // Add subclass buttons only for available types
-        Array.from(availableSubtypes).sort().forEach(tag => {
-            const button = document.createElement('button');
-            button.textContent = armorTagToSubclass[tag];
-            if (selectedSubclass === tag) button.classList.add('active');
-            button.addEventListener('click', () => handleSubclassButtonClick(button, tag));
-            subclassContainer.appendChild(button);
+        // Add subclass buttons in the correct order
+        armorTypeOrder.forEach(tag => {
+            if (availableSubtypes.has(tag)) {
+                const button = document.createElement('button');
+                button.textContent = armorTagToSubclass[tag];
+                if (selectedSubclass === tag) button.classList.add('active');
+                button.addEventListener('click', () => handleSubclassButtonClick(button, tag));
+                subclassContainer.appendChild(button);
+            }
         });
     } else {
         subclassContainer.style.display = 'none';
@@ -456,6 +468,14 @@ function handleSubclassButtonClick(button, subclass) {
     
     selectedSubclass = subclass;
     
+    // Update search box text
+    const searchInput = document.getElementById('search');
+    if (button.textContent === 'All') {
+        searchInput.value = selectedClass;
+    } else {
+        searchInput.value = `${selectedClass} - ${button.textContent}`;
+    }
+    
     // Update results with selected subclass filter
     let results = itemsByClass[selectedClass] || [];
     if (subclass) {
@@ -466,7 +486,7 @@ function handleSubclassButtonClick(button, subclass) {
 
 function handleInput(e) {
     const searchContainer = document.querySelector('.search-container');
-    const val = e.target.value.toLowerCase();
+    const val = e.target.value.trim().toLowerCase();
     
     // Remove existing autocomplete items
     let autocompleteItems = document.getElementById('autocomplete-items');
@@ -479,11 +499,16 @@ function handleInput(e) {
         selectedSubclass = null;
         document.querySelector('.table-container').style.display = 'none';
         document.getElementById('results').innerHTML = '';
+        // Clear all button selections
+        document.querySelectorAll('.category-buttons button').forEach(btn => btn.classList.remove('active'));
+        document.querySelector('.subclass-buttons').style.display = 'none';
         return;
     }
     
     // Get fuzzy search matches
-    const matches = fuse.search(val).slice(0, 10);
+    const matches = fuse.search(val)
+        .filter(match => match.score < 0.6) // Only keep good matches
+        .slice(0, 10);
     
     // Create autocomplete dropdown if we have matches
     if (matches.length > 0) {
@@ -502,6 +527,38 @@ function handleInput(e) {
                 e.target.value = item.text;
                 selectedClass = item.class;
                 selectedSubclass = item.subclass;
+                
+                // Highlight the corresponding button
+                if (item.class) {
+                    const button = document.querySelector(`.category-buttons button[data-class="${item.class}"]`);
+                    if (button) {
+                        // Clear all active states first
+                        document.querySelectorAll('.category-buttons button').forEach(btn => {
+                            btn.classList.remove('active');
+                        });
+                        button.classList.add('active');
+                        button.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                        
+                        // Update subclass buttons if it's an armor type
+                        if (ARMOR_TYPES.includes(item.class)) {
+                            updateSubclassButtons(item.class);
+                            document.querySelector('.subclass-buttons').style.display = 'flex';
+                            
+                            // If a subclass was selected from search, highlight the corresponding subclass button
+                            if (item.subclass) {
+                                const subclassButtons = document.querySelectorAll('.subclass-buttons button');
+                                subclassButtons.forEach(btn => {
+                                    btn.classList.remove('active');
+                                    if (btn.textContent === armorTagToSubclass[item.subclass]) {
+                                        btn.classList.add('active');
+                                    }
+                                });
+                            }
+                        } else {
+                            document.querySelector('.subclass-buttons').style.display = 'none';
+                        }
+                    }
+                }
                 
                 let results = itemsByClass[item.class] || [];
                 if (item.subclass) {
@@ -537,38 +594,12 @@ function handleKeyDown(e) {
     } else if (e.key === 'Enter') {
         e.preventDefault();
         if (currentFocus > -1 && currentFocus < items.length) {
-            const selectedItem = items[currentFocus];
-            handleAutocompleteSelection(selectedItem.textContent);
-            autocompleteItems.remove();
+            items[currentFocus].click();
         } else if (items.length > 0) {
-            // If no item is focused but we have matches, select the first one
-            handleAutocompleteSelection(items[0].textContent);
-            autocompleteItems.remove();
+            items[0].click();
         }
     } else if (e.key === 'Escape') {
         autocompleteItems.remove();
-    }
-}
-
-function handleAutocompleteSelection(text) {
-    // Clear all active states first
-    document.querySelectorAll('.category-buttons button').forEach(btn => {
-        btn.classList.remove('active');
-    });
-
-    // Find and activate the matching button
-    const buttons = document.querySelectorAll('.category-buttons button');
-    for (const button of buttons) {
-        if (button.textContent === text) {
-            button.classList.add('active');
-            // Scroll the button into view
-            button.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            // Update the search input
-            document.getElementById('search').value = text;
-            // Update the results
-            handleClassButtonClick(button, text);
-            break;
-        }
     }
 }
 
