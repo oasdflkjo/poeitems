@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoE Items</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Modern autocomplete library -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic">
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="search" class="search-input" placeholder="Type an item class (e.g. 'Two Handed Sword') and press Enter..." />
+        </div>
+        <div class="table-container">
+            <table id="results">
+                <thead>
+                    <tr>
+                        <th>Base Type</th>
+                        <th>Class</th>
+                        <th>Implicit</th>
+                        <!-- Stats headers will be dynamically added based on item type -->
+                        <th>Requirements</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Core libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 
