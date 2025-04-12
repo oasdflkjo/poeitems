@@ -344,11 +344,19 @@ function createButtons() {
         const buttonsDiv = document.createElement('div');
         buttonsDiv.className = 'category-buttons';
         
-        // Sort items alphabetically within each category
         items.sort().forEach(itemClass => {
             const button = document.createElement('button');
             button.textContent = itemClass;
-            button.addEventListener('click', () => handleClassButtonClick(button, itemClass));
+            button.addEventListener('click', () => {
+                // Clear all active states first
+                document.querySelectorAll('.category-buttons button').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                button.classList.add('active');
+                handleClassButtonClick(button, itemClass);
+                // Update search input to match
+                document.getElementById('search').value = itemClass;
+            });
             buttonsDiv.appendChild(button);
         });
 
@@ -529,13 +537,38 @@ function handleKeyDown(e) {
     } else if (e.key === 'Enter') {
         e.preventDefault();
         if (currentFocus > -1 && currentFocus < items.length) {
-            items[currentFocus].click();
+            const selectedItem = items[currentFocus];
+            handleAutocompleteSelection(selectedItem.textContent);
+            autocompleteItems.remove();
         } else if (items.length > 0) {
             // If no item is focused but we have matches, select the first one
-            items[0].click();
+            handleAutocompleteSelection(items[0].textContent);
+            autocompleteItems.remove();
         }
     } else if (e.key === 'Escape') {
         autocompleteItems.remove();
+    }
+}
+
+function handleAutocompleteSelection(text) {
+    // Clear all active states first
+    document.querySelectorAll('.category-buttons button').forEach(btn => {
+        btn.classList.remove('active');
+    });
+
+    // Find and activate the matching button
+    const buttons = document.querySelectorAll('.category-buttons button');
+    for (const button of buttons) {
+        if (button.textContent === text) {
+            button.classList.add('active');
+            // Scroll the button into view
+            button.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            // Update the search input
+            document.getElementById('search').value = text;
+            // Update the results
+            handleClassButtonClick(button, text);
+            break;
+        }
     }
 }
 
