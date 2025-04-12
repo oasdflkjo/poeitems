@@ -1,39 +1,29 @@
-# PoE2 Item Database
+# PoE2 Item Database MVP
+
+_Warning: this is 100% vibes and done in the background by claude 3.7 agent. Don't take it too seriously.
+Lots of things are organized in absurd ways but for this solution it is enough._
+
+_I just needed a simple way to search for items in PoE2 and this is the best solution I could come up with._
+
 
 A web-based item database for Path of Exile 2, featuring:
 - Searchable item database
 - Filtering by item class and attributes
-- Detailed item statistics
-- Responsive design
 
-## Setup
+# Buttonless version:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/poeitems.git
-cd poeitems
-```
+https://oasdflkjo.github.io/poeitems/?buttonless
 
-2. Install dependencies:
-```bash
-npm install
-```
+# Standard version:
 
-3. Run the extraction script to generate the item database:
-```bash
-node extract_items.js
-```
-
-4. Open `index.html` in your browser to view the application.
+https://oasdflkjo.github.io/poeitems/
 
 ## Features
 
-- Search items by name
 - Filter by item class (Armor, Weapons, Jewelry, etc.)
 - Filter by attributes (Strength, Dexterity, Intelligence)
 - View detailed item statistics
 - Sort items by various properties
-- Responsive design for desktop and mobile
 
 ## Data Source
 
