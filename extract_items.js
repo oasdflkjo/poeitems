@@ -112,7 +112,7 @@ function extractItems() {
 
                 // Extract weapon stats
                 const weaponStats = {
-                    physicalDamage: null,
+                    damage: {},
                     attacksPerSecond: null,
                     criticalStrikeChance: null,
                     range: null
@@ -121,20 +121,27 @@ function extractItems() {
                 const weaponBlock = block.match(/weapon = {([^}]+)}/);
                 if (weaponBlock) {
                     const blockContent = weaponBlock[1];
-                    const physicalMinMatch = blockContent.match(/PhysicalMin = ([0-9.]+)/);
-                    const physicalMaxMatch = blockContent.match(/PhysicalMax = ([0-9.]+)/);
+                    const damageTypes = ['Physical', 'Fire', 'Cold', 'Lightning', 'Chaos'];
+                    
+                    // Extract all damage types
+                    damageTypes.forEach(type => {
+                        const minMatch = blockContent.match(new RegExp(type + 'Min = ([0-9.]+)'));
+                        const maxMatch = blockContent.match(new RegExp(type + 'Max = ([0-9.]+)'));
+                        
+                        if (minMatch && maxMatch) {
+                            weaponStats.damage[type.toLowerCase()] = {
+                                min: parseInt(minMatch[1]),
+                                max: parseInt(maxMatch[1])
+                            };
+                        }
+                    });
+
                     const attackSpeedMatch = blockContent.match(/AttackRateBase = ([0-9.]+)/);
                     const critChanceMatch = blockContent.match(/CritChanceBase = ([0-9.]+)/);
                     const rangeMatch = blockContent.match(/Range = ([0-9.]+)/);
 
-                    if (physicalMinMatch && physicalMaxMatch) {
-                        weaponStats.physicalDamage = [
-                            parseInt(physicalMinMatch[1]),
-                            parseInt(physicalMaxMatch[1])
-                        ];
-                    }
                     weaponStats.attacksPerSecond = attackSpeedMatch ? parseFloat(attackSpeedMatch[1]) : null;
-                    weaponStats.criticalStrikeChance = critChanceMatch ? parseFloat(critChanceMatch[1]) : null;
+                    weaponStats.criticalStrikeChance = critChanceMatch ? parseFloat(critChanceMatch[1]) * 100 : null;
                     weaponStats.range = rangeMatch ? parseInt(rangeMatch[1]) : null;
                 }
 

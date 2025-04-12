@@ -630,6 +630,7 @@ function displayResults(results) {
         return;
     }
 
+    const damageTypes = ['physical', 'fire', 'cold', 'lightning', 'chaos'];
     const usedColumns = analyzeColumns(results);
     
     let table = '<table><thead><tr>';
@@ -637,33 +638,25 @@ function displayResults(results) {
     table += '<th class="sortable" onclick="sortTable(this, \'string\')">Implicit</th>';
     
     // Add requirement headers if used
-    if (usedColumns.level) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Level</th>';
-    if (usedColumns.strength) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Str</th>';
-    if (usedColumns.dexterity) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Dex</th>';
-    if (usedColumns.intelligence) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Int</th>';
+    if (usedColumns.level) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Level</th>';
+    if (usedColumns.strength) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Str</th>';
     
-    // Add armor stats headers if used
-    if (usedColumns.armor) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Armor</th>';
-    if (usedColumns.evasion) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Evasion</th>';
-    if (usedColumns.energyShield) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Energy Shield</th>';
-    if (usedColumns.ward) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Ward</th>';
+    // Add damage type headers if any weapon stats are used
+    let hasWeaponStats = false;
+    damageTypes.forEach(type => {
+        if (usedColumns[type]) {
+            hasWeaponStats = true;
+            table += `<th class="sortable numeric" onclick="sortTable(this, 'range')">${type.charAt(0).toUpperCase() + type.slice(1)}</th>`;
+        }
+    });
     
-    // Add weapon stats headers if used
-    if (usedColumns.physicalDamage) {
-        table += '<th class="sortable" onclick="sortTable(this, \'range\')">Physical Damage</th>';
-        table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">APS</th>';
-        table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Crit</th>';
-        if (usedColumns.range) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Range</th>';
+    // Add other weapon stats if we have any damage types
+    if (hasWeaponStats) {
+        table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">APS</th>';
+        table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Crit</th>';
+        table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Range</th>';
     }
 
-    // Add trap stats headers if used
-    if (usedColumns.cooldown) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Cooldown</th>';
-    if (usedColumns.duration) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Duration</th>';
-    if (usedColumns.radius) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Radius</th>';
-
-    // Add spirit header if used
-    if (usedColumns.spirit) table += '<th class="sortable" onclick="sortTable(this, \'numeric\')">Spirit</th>';
-    
     table += '</tr></thead><tbody>';
 
     results.forEach(item => {
@@ -673,33 +666,23 @@ function displayResults(results) {
         table += `<td>${implicit}</td>`;
         
         // Add requirement values if used
-        if (usedColumns.level) table += `<td>${item.requirements?.level || 0}</td>`;
-        if (usedColumns.strength) table += `<td>${item.requirements?.strength || 0}</td>`;
-        if (usedColumns.dexterity) table += `<td>${item.requirements?.dexterity || 0}</td>`;
-        if (usedColumns.intelligence) table += `<td>${item.requirements?.intelligence || 0}</td>`;
+        if (usedColumns.level) table += `<td class="numeric">${item.requirements?.level || ''}</td>`;
+        if (usedColumns.strength) table += `<td class="numeric">${item.requirements?.strength || ''}</td>`;
         
-        // Add armor stats values if used
-        if (usedColumns.armor) table += `<td>${item.armorStats?.armor || 0}</td>`;
-        if (usedColumns.evasion) table += `<td>${item.armorStats?.evasion || 0}</td>`;
-        if (usedColumns.energyShield) table += `<td>${item.armorStats?.energyShield || 0}</td>`;
-        if (usedColumns.ward) table += `<td>${item.armorStats?.ward || 0}</td>`;
+        // Add damage values for each type
+        damageTypes.forEach(type => {
+            if (usedColumns[type]) {
+                const dmg = item.weaponStats?.damage?.[type];
+                table += `<td class="numeric">${dmg ? `${dmg.min}-${dmg.max}` : ''}</td>`;
+            }
+        });
         
-        // Add weapon stats values if used
-        if (usedColumns.physicalDamage) {
-            const damage = item.weaponStats?.physicalDamage;
-            table += `<td>${Array.isArray(damage) ? damage.join('-') : '0'}</td>`;
-            table += `<td>${item.weaponStats?.attacksPerSecond || 0}</td>`;
-            table += `<td>${item.weaponStats?.criticalStrikeChance || 0}</td>`;
-            if (usedColumns.range) table += `<td>${item.weaponStats?.range || 0}</td>`;
+        // Add other weapon stats if we have any damage types
+        if (hasWeaponStats) {
+            table += `<td class="numeric">${item.weaponStats?.attacksPerSecond?.toFixed(2) || ''}</td>`;
+            table += `<td class="numeric">${item.weaponStats?.criticalStrikeChance?.toFixed(2) || ''}</td>`;
+            table += `<td class="numeric">${item.weaponStats?.range || ''}</td>`;
         }
-
-        // Add trap stats values if used
-        if (usedColumns.cooldown) table += `<td>${item.trapStats?.cooldown || 0}</td>`;
-        if (usedColumns.duration) table += `<td>${item.trapStats?.duration || 0}</td>`;
-        if (usedColumns.radius) table += `<td>${item.trapStats?.radius || 0}</td>`;
-
-        // Add spirit value if used
-        if (usedColumns.spirit) table += `<td>${item.spirit || 0}</td>`;
         
         table += '</tr>';
     });
@@ -715,20 +698,11 @@ function analyzeColumns(results) {
         implicit: false,
         level: false,
         strength: false,
-        dexterity: false,
-        intelligence: false,
-        armor: false,
-        evasion: false,
-        energyShield: false,
-        ward: false,
-        physicalDamage: false,
-        attacksPerSecond: false,
-        criticalStrikeChance: false,
-        range: false,
-        cooldown: false,
-        duration: false,
-        radius: false,
-        spirit: false
+        physical: false,
+        fire: false,
+        cold: false,
+        lightning: false,
+        chaos: false
     };
 
     results.forEach(item => {
@@ -739,36 +713,13 @@ function analyzeColumns(results) {
         if (item.requirements) {
             if (item.requirements.level > 0) usedColumns.level = true;
             if (item.requirements.strength > 0) usedColumns.strength = true;
-            if (item.requirements.dexterity > 0) usedColumns.dexterity = true;
-            if (item.requirements.intelligence > 0) usedColumns.intelligence = true;
         }
 
-        // Check armor stats
-        if (item.armorStats) {
-            if (item.armorStats.armor > 0) usedColumns.armor = true;
-            if (item.armorStats.evasion > 0) usedColumns.evasion = true;
-            if (item.armorStats.energyShield > 0) usedColumns.energyShield = true;
-            if (item.armorStats.ward > 0) usedColumns.ward = true;
-        }
-
-        // Check weapon stats
-        if (item.weaponStats && item.weaponStats.physicalDamage !== null) {
-            usedColumns.physicalDamage = true;
-            usedColumns.attacksPerSecond = true;
-            usedColumns.criticalStrikeChance = true;
-            if (item.weaponStats.range !== null) usedColumns.range = true;
-        }
-
-        // Check trap stats
-        if (item.class === 'TrapTool') {
-            usedColumns.cooldown = true;
-            usedColumns.duration = true;
-            usedColumns.radius = true;
-        }
-
-        // Check spirit for sceptres
-        if (item.spirit !== null && item.spirit > 0) {
-            usedColumns.spirit = true;
+        // Check weapon damage types
+        if (item.weaponStats?.damage) {
+            for (const type in item.weaponStats.damage) {
+                usedColumns[type] = true;
+            }
         }
     });
 
