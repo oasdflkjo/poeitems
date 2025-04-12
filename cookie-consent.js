@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     message.innerHTML = `
         This website uses Google Analytics to count anonymous page visits. 
         We do not collect personal data and IP addresses are anonymized.
+        Note: If you use an ad blocker, analytics might be blocked.
     `;
     message.style.cssText = `
         flex: 1;
