@@ -106,6 +106,7 @@ const COLUMN_DEFINITIONS = [
     { id: 'evasion', text: 'Evasion', type: 'numeric', width: '100px', group: 'armorStats' },
     { id: 'energyShield', text: 'Energy Shield', type: 'numeric', width: '120px', group: 'armorStats' },
     { id: 'ward', text: 'Ward', type: 'numeric', width: '100px', group: 'armorStats' },
+    { id: 'blockChance', text: 'Block Chance', type: 'numeric', width: '100px', group: 'armorStats' },
     // Trap stats - fixed positions
     { id: 'cooldown', text: 'Cooldown', type: 'numeric', width: '100px', group: 'trapStats' },
     { id: 'duration', text: 'Duration', type: 'numeric', width: '100px', group: 'trapStats' },
@@ -133,6 +134,7 @@ const TABLE_STRUCTURE = [
     { id: 'evasion', text: 'Evasion', type: 'numeric', class: 'col-numeric', group: 'armorStats' },
     { id: 'energyShield', text: 'ES', type: 'numeric', class: 'col-numeric', group: 'armorStats' },
     { id: 'ward', text: 'Ward', type: 'numeric', class: 'col-numeric', group: 'armorStats' },
+    { id: 'blockChance', text: 'Block %', type: 'numeric', class: 'col-numeric', group: 'armorStats' },
     { id: 'physicalDamage', text: 'Physical', type: 'range', class: 'col-numeric', group: 'weaponStats' },
     { id: 'criticalStrikeChance', text: 'Crit', type: 'numeric', class: 'col-numeric', group: 'weaponStats' },
     { id: 'attacksPerSecond', text: 'APS', type: 'numeric', class: 'col-numeric', group: 'weaponStats' },
@@ -672,7 +674,8 @@ function displayResults(results) {
         armor: results.some(item => item.armorStats?.armor > 0),
         evasion: results.some(item => item.armorStats?.evasion > 0),
         energyShield: results.some(item => item.armorStats?.energyShield > 0),
-        ward: results.some(item => item.armorStats?.ward > 0)
+        ward: results.some(item => item.armorStats?.ward > 0),
+        blockChance: results.some(item => item.armorStats?.blockChance > 0)
     };
 
     if (Object.values(armorStats).some(Boolean)) {
@@ -681,6 +684,7 @@ function displayResults(results) {
         if (armorStats.evasion) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Evasion</th>';
         if (armorStats.energyShield) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Energy Shield</th>';
         if (armorStats.ward) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Ward</th>';
+        if (armorStats.blockChance) table += '<th class="sortable numeric" onclick="sortTable(this, \'numeric\')">Block %</th>';
     }
     
     // Add damage type headers if any weapon stats are used
@@ -736,6 +740,7 @@ function displayResults(results) {
             if (armorStats.evasion) table += `<td class="numeric">${item.armorStats?.evasion || ''}</td>`;
             if (armorStats.energyShield) table += `<td class="numeric">${item.armorStats?.energyShield || ''}</td>`;
             if (armorStats.ward) table += `<td class="numeric">${item.armorStats?.ward || ''}</td>`;
+            if (armorStats.blockChance) table += `<td class="numeric">${item.armorStats?.blockChance || ''}</td>`;
         }
         
         // Add damage values for each type

@@ -150,7 +150,8 @@ function extractItems() {
                     armor: 0,
                     evasion: 0,
                     energyShield: 0,
-                    ward: 0
+                    ward: 0,
+                    blockChance: 0
                 };
 
                 const armorBlock = block.match(/armour = {([^}]+)}/);
@@ -161,11 +162,13 @@ function extractItems() {
                     const evasionBase = blockContent.match(/Evasion\s*=\s*([0-9.]+)/);
                     const energyShieldBase = blockContent.match(/EnergyShield\s*=\s*([0-9.]+)/);
                     const wardBase = blockContent.match(/Ward\s*=\s*([0-9.]+)/);
+                    const blockChanceBase = blockContent.match(/BlockChance\s*=\s*([0-9.]+)/);
 
                     armorStats.armor = armorBase ? parseFloat(armorBase[1]) : 0;
                     armorStats.evasion = evasionBase ? parseFloat(evasionBase[1]) : 0;
                     armorStats.energyShield = energyShieldBase ? parseFloat(energyShieldBase[1]) : 0;
                     armorStats.ward = wardBase ? parseFloat(wardBase[1]) : 0;
+                    armorStats.blockChance = blockChanceBase ? parseFloat(blockChanceBase[1]) : 0;
                 }
 
                 // Extract requirements from the req block
